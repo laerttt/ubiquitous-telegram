@@ -1,0 +1,187 @@
+/* Base styles remain the same as your original CSS */
+.home {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: left;
+  padding: 0px 40px 40px 40px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.welcome-message {
+  z-index: 1;
+  margin-top: 0px;
+  font-size: 45px;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.h2-container {
+  box-sizing: border-box;
+  padding: 40px 140px;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  min-width: min-content;
+  text-align: center;
+}
+
+#background-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  filter: brightness(1);
+}
+
+.home button {
+  background-color: white;
+  width: 200px;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+  height: 50px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out, width 0.1s ease-in-out;
+  padding: 5px;
+  position: relative;
+}
+
+.home button span {
+  position: relative;
+  display: inline-block;
+}
+
+.home button span::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.home button:hover span::after {
+  width: 100%;
+}
+
+.home button:hover {
+  width: 220px;
+}
+
+.home button:active {
+  width: 250px;
+}
+
+/* Enhanced Media Queries for smaller screens */
+@media (max-width: 768px) {
+  #background-video {
+    display: none;
+  }
+
+  .home {
+    padding: 0px 20px 20px 20px;
+    justify-content: center;
+  }
+
+  .welcome-message {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .h2-container {
+    padding: 30px 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .home button {
+    width: 180px;
+    height: 45px;
+    font-size: medium;
+  }
+
+  .home button:hover {
+    width: 190px;
+  }
+
+  .home button:active {
+    width: 200px;
+  }
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 480px) {
+  #background-video {
+    display: none;
+  }
+
+  .home {
+    padding: 0px 15px 15px 15px;
+  }
+
+  .welcome-message {
+    font-size: 22px;
+  }
+
+  .h2-container {
+    padding: 20px 20px;
+    border-radius: 15px;
+  }
+
+  .home button {
+    width: 160px;
+    height: 40px;
+    font-size: small;
+  }
+
+  .home button:hover {
+    width: 170px;
+    /* Smaller expansion on hover for mobile */
+  }
+
+  .home button:active {
+    width: 180px;
+  }
+}
+
+/* Very small devices */
+@media (max-width: 320px) {
+  .welcome-message {
+    font-size: 18px;
+  }
+
+  .h2-container {
+    padding: 15px;
+  }
+
+  .home button {
+    width: 140px;
+    font-size: small;
+  }
+}

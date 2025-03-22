@@ -1,0 +1,29 @@
+.service-intro {
+  box-sizing: border-box;
+  margin: 50px;
+  height: min-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  min-width: min-content;
+  text-align: center;
+}
+.service-intro h2 {
+  z-index: inherit;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.service-intro p {
+  z-index: inherit;
+  text-align: center;
+  padding-left:10%;
+  padding-right:10%;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
