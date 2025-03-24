@@ -4,9 +4,9 @@ import Header from "./Header";
 import Home from "./Home";
 import Headroom from "react-headroom";
 import Services from "./Services";
+import About from "./About"; 
 import "./css/App.css";
 import Footer from "./Footer";
-// import About from './About';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/about" element={<About />} /> {/* ✅ Add this line */}
         </Routes>
       </div>
       <Footer style={{ zIndex: 1000 }} />
