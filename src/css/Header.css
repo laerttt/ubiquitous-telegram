@@ -11,6 +11,28 @@
   align-items: center;
   box-sizing: border-box;
 }
+.language-switcher {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.flag-icon {
+  width: 28px;
+  height: 20px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: transform 0.2s ease;
+}
+
+.flag-icon:hover {
+  transform: scale(1.1);
+}
+
 body:has(div#root > div.main-content > div.home) .header {
   position: absolute;
   top: 0;

@@ -1,0 +1,190 @@
+{
+    "home": {
+      "hero": "Partneri juaj në <1>Inovacion</1> dhe Ekselencë Digjitale",
+      "subtitle": "Lëreni teknologjinë në duart tona që ju të fokusoheni në rritjen e biznesit tuaj.",
+      "button": "Shërbimet Tona"
+    }, 
+    "services": {
+  "title": "Çfarë ofrojmë...",
+  "subtitle": "Shërbime të plota",
+  "businessWebsite": {
+    "title": "Website për Biznese",
+    "description": "Faqe interneti për çdo lloj biznesi"
+  },
+  "ai": {
+    "title": "Inteligjencë Artificiale në biznesin tuaj",
+    "description": "Automatizimi i detyrave të përsëritura duke përdorur AI, duke ulur kostot"
+  },
+  "social": {
+    "title": "Menaxhim i Rrjeteve Sociale me Inteligjencë Artificiale",
+    "description": "Krijimi i përmbajtjes për rrjetet sociale me ndihmën e AI"
+  },
+  "chatbots": {
+    "title": "Chatbot dhe Mbështetje për Klientë sipas Kërkesës",
+    "description": "Mbështetje për klientët në çdo shkallë për biznesin tuaj."
+  },
+  "crm": {
+    "title": "Menaxhim dhe Zgjerim i CRM",
+    "description": "Menaxhimi dhe krijimi i aplikacioneve për qendra thirrjesh"
+  },
+  "software": {
+    "title": "Zhvillim Softueri (Native/Desktop/WebApp)",
+    "description": "Aplikacione të personalizuara sipas nevojave të biznesit tuaj"
+  },
+  "design": {
+    "title": "Dizajn Grafik UI/UX",
+    "description": "Menaxhimi dhe optimizimi i departamentit të marketingut"
+  },
+  "courses": {
+    "title": "Kurse dhe Projekte Programimi",
+    "description": "Zgjidhje për sfida në programim për studentë dhe fillestarë"
+  }
+},"pricing": {
+  "ai": {
+    "starter": {
+      "title": "Paketa Fillestare Automatizimi",
+      "price": "$99/muaj",
+      "features": [
+        "Automatizim i të dhënave",
+        "Përpunim formularësh",
+        "Deri në 1,000 rreshta/muaj"
+      ]
+    },
+    "pro": {
+      "title": "AI Pro",
+      "price": "$299/muaj",
+      "features": [
+        "Workflows të avancuara",
+        "Logjikë automatike e personalizuar",
+        "Validim dhe eksport të dhënash"
+      ]
+    },
+    "custom": {
+      "title": "Integrim i Personalizuar i AI",
+      "price": "Na Kontaktoni",
+      "features": [
+        "Zgjidhje të përshtatura për biznesin",
+        "Konsulencë një-për-një",
+        "Mbështetje për vendosje të plotë"
+      ]
+    }
+  },
+  
+  "website": {
+    "basic": {
+      "title": "Website Bazë",
+      "price": "$149",
+      "features": ["1-3 faqe", "Dizajn responsiv", "Formular kontakti"]
+    },
+    "pro": {
+      "title": "Paketa Biznes",
+      "price": "$349",
+      "features": ["Deri në 8 faqe", "SEO i optimizuar", "Brendim i personalizuar"]
+    },
+    "enterprise": {
+      "title": "Paketa Web Enterprise",
+      "price": "Na kontaktoni",
+      "features": ["Faqe të pakufizuara", "Integrime të personalizuara", "Mbështetje e dedikuar"]
+    }
+  },
+  "chatbots": {
+  "basic": {
+    "title": "Chatbot Standard",
+    "price": "$79/muaj",
+    "features": [
+      "Deri në 500 mesazhe",
+      "Konfigurim i thjeshtë i FAQ",
+      "Dërgim mesazhi në email"
+    ]
+  },
+  "advanced": {
+    "title": "Chatbot i Avancuar",
+    "price": "$199/muaj",
+    "features": [
+      "Mesazhe të pakufizuara",
+      "Trajnim bisedash me AI",
+      "Integrim me CRM"
+    ]
+  }
+},
+"crm": {
+  "starter": {
+    "title": "CRM Bazë",
+    "price": "$129/muaj",
+    "features": [
+      "Gjurmim i përdoruesve dhe klientëve",
+      "Analiza themelore",
+      "Mbështetje për 1 ekip"
+    ]
+  },
+  "pro": {
+    "title": "CRM Pro",
+    "price": "$279/muaj",
+    "features": [
+      "Gjurmim i avancuar i përdoruesve",
+      "KPI të personalizuara",
+      "Regjistrime telefonike & shënime zanore"
+    ]
+  }
+}
+,"software": {
+  "basic": {
+    "title": "Aplikacion Bazë",
+    "price": "Nga $499",
+    "features": [
+      "Landing page ose MVP",
+      "Dizajn dhe publikim",
+      "I ndërtuar me React ose Vue"
+    ]
+  },
+  "advanced": {
+    "title": "Zhvillim i Avancuar",
+    "price": "Nga $1299",
+    "features": [
+      "Integrim me backend",
+      "Autentikim, forma, ruajtje",
+      "Panel administrimi i përfshirë"
+    ]
+  },
+  "custom": {
+    "title": "Zgjidhje e Personalizuar",
+    "price": "Na kontaktoni",
+    "features": [
+      "Logjikë unike biznesi",
+      "Integrim me AI dhe analiza",
+      "Ekip zhvillimi i dedikuar"
+    ]
+  }
+},
+"social": {
+  "basic": {
+    "title": "Paketa Bazë Sociale",
+    "price": "$59/muaj",
+    "features": [
+      "4 postime/muaj",
+      "1 platformë"
+    ]
+  },
+  "full": {
+    "title": "Menaxhim i Plotë",
+    "price": "$149/muaj",
+    "features": [
+      "12 postime/muaj",
+      "Deri në 3 platforma",
+      "Dizajn bazik për përmbajtje"
+    ]
+  }
+}
+
+
+
+
+
+  
+}
+
+
+
+
+  
+}  

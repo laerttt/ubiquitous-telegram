@@ -1,0 +1,168 @@
+{
+    "home": {
+      "hero": "Your Partner in <1>Innovation</1> and Digital Excellence",
+      "subtitle": "Let us handle the tech so you can focus on growing your business.",
+      "button": "Our Services"
+    },
+  
+
+    "services": {
+  "title": "What we offer...",
+  "subtitle": "Full Services",
+  "businessWebsite": {
+    "title": "Business Website",
+    "description": "Websites for businesses of any kind"
+  },
+  "ai": {
+    "title": "Artificial Intelligence in your business",
+    "description": "Automating gruesome human tasks using AI, data entry automation leading to cost cutting"
+  },
+  "social": {
+    "title": "Social Media Management using Artificial Intelligence",
+    "description": "Creating Social Media content using AI"
+  },
+  "chatbots": {
+    "title": "Chatbots/Customer Support on Demand",
+    "description": "Customer Support of any scale for your business."
+  },
+  "crm": {
+    "title": "CRM management and extensions",
+    "description": "Managing and creating call center applications"
+  },
+  "software": {
+    "title": "Software Development (Native/Desktop/WebApp)",
+    "description": "Custom applications of any kind tailored to your business needs."
+  },
+  "design": {
+    "title": "Graphic Design UI/UX",
+    "description": "Managing and streamlining your marketing department"
+  },
+  "courses": {
+    "title": "Programming Courses and Projects",
+    "description": "Solving programming-related challenges for students and beginners"
+  }
+},
+"pricing": {
+  "ai": {
+    "starter": {
+      "title": "Automation Starter",
+      "price": "$99/month",
+      "features": [
+        "Data entry automation",
+        "Form processing",
+        "Up to 1,000 rows/mo"
+      ]
+    },
+    "pro": {
+      "title": "AI Pro",
+      "price": "$299/month",
+      "features": [
+        "Advanced data workflows",
+        "Custom automation logic",
+        "Data validation & export"
+      ]
+    },
+    "custom": {
+      "title": "Custom AI Integration",
+      "price": "Contact Us",
+      "features": [
+        "Tailored AI solutions",
+        "One-on-one consultancy",
+        "Full deployment support"
+      ]
+    }
+  },
+  "website": {
+    "basic": {
+      "title": "Basic Website",
+      "price": "$149",
+      "features": ["1-3 Pages", "Responsive design", "Contact form"]
+    },
+    "pro": {
+      "title": "Business Pro",
+      "price": "$349",
+      "features": ["Up to 8 pages", "SEO Optimization", "Custom branding"]
+    },
+    "enterprise": {
+      "title": "Enterprise Web Package",
+      "price": "Contact Us",
+      "features": ["Unlimited pages", "Custom integrations", "Dedicated support"]
+    }
+  },
+  "crm": {
+  "starter": {
+    "title": "CRM Essentials",
+    "price": "$129/month",
+    "features": [
+      "User & lead tracking",
+      "Basic analytics",
+      "Support for 1 team"
+    ]
+  },
+  "pro": {
+    "title": "CRM Pro",
+    "price": "$279/month",
+    "features": [
+      "Advanced user tracking",
+      "Custom KPIs",
+      "Call logs & voice notes"
+    ]
+  }
+},
+"software": {
+  "basic": {
+    "title": "Starter App",
+    "price": "From $499",
+    "features": [
+      "Landing page or MVP",
+      "UI design & deployment",
+      "React or Vue base"
+    ]
+  },
+  "advanced": {
+    "title": "Advanced Build",
+    "price": "From $1299",
+    "features": [
+      "Backend integration",
+      "Auth, forms, storage",
+      "Admin dashboard included"
+    ]
+  },
+  "custom": {
+    "title": "Custom Application",
+    "price": "Contact Us",
+    "features": [
+      "Your unique business logic",
+      "AI & analytics integration",
+      "Dedicated dev team"
+    ]
+  }
+},
+"social": {
+  "basic": {
+    "title": "Basic Social Kit",
+    "price": "$59/month",
+    "features": [
+      "4 posts/month",
+      "1 platform"
+    ]
+  },
+  "full": {
+    "title": "Full Management",
+    "price": "$149/month",
+    "features": [
+      "12 posts/month",
+      "Up to 3 platforms",
+      "Basic content design"
+    ]
+  }
+}
+
+
+
+
+
+}
+
+  }
+  
