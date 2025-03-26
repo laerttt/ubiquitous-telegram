@@ -10,7 +10,20 @@ body,
 }
 
 /* Footer for Home page */
-
+body:has(div#root > div.main-content > div.home) .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 25px;
+  z-index: 1000;
+}
 
 /* Default footer */
 .footer {
@@ -90,7 +103,7 @@ body,
   }
 
   body:has(div#root > div.main-content > div.home) .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);

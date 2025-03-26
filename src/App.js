@@ -17,6 +17,7 @@ import PricingChatbots from "./pages/ProductPricing/PricingChatbots";
 import PricingCRM from "./pages/ProductPricing/PricingCRM";
 import PricingSoftware from "./pages/ProductPricing/PricingSoftware";
 import { Navigate } from "react-router-dom";
+import Contact from "./pages/Contact";
 
 // Auto language switcher using URL prefix (e.g. /en or /al)
 function LangRouterWrapper({ children }) {
@@ -43,6 +44,7 @@ function App() {
             {/* English */}
             <Route path="/en" element={<Home />} />
             <Route path="/en/services" element={<Services />} />
+            <Route path="/en/contact" element={<Contact />} />
             <Route path="/en/about" element={<About />} />
             <Route path="/en/pricing/website" element={<PricingWebsite />} />
             <Route path="/en/pricing/ai" element={<PricingAI />} />
@@ -54,6 +56,7 @@ function App() {
             {/* Albanian */}
             <Route path="/al" element={<Home />} />
             <Route path="/al/services" element={<Services />} />
+            <Route path="/al/contact" element={<Contact />} />
             <Route path="/al/about" element={<About />} />
             <Route path="/al/pricing/website" element={<PricingWebsite />} />
             <Route path="/al/pricing/ai" element={<PricingAI />} />

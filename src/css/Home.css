@@ -1,5 +1,6 @@
 /* Base styles remain the same as your original CSS */
 .home {
+  overflow: hidden;
   position: relative;
   min-height: 100vh;
   width: 100%;
@@ -38,7 +39,6 @@
 }
 
 #background-video {
-  height: 100%;
   width: 100%;
   object-fit: cover;
   position: fixed;
