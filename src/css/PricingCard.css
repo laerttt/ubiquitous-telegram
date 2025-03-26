@@ -13,6 +13,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     min-height: 450px; /* 🔥 Added height to make card longer */
+    margin-top: 120px;
   }
   
   
