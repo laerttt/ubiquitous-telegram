@@ -10,25 +10,25 @@ const PricingSocialMedia = () => {
    <div>
    <div className="pricing-page">
       {/* Pricing Cards (existing layout untouched) */}
-      <PricingCard title={t("social.basic.title")} price={t("social.basic.price")}>
+      <PricingCard title={t("pricing.social.basic.title")} price={t("pricing.social.basic.price")}>
         <ul>
-          <li>{t("social.basic.features.0")}</li>
-          <li>{t("social.basic.features.1")}</li>
+          <li>{t("pricing.social.basic.features.0")}</li>
+          <li>{t("pricing.social.basic.features.1")}</li>
         </ul>
       </PricingCard>
 
-      <PricingCard title={t("social.full.title")} price={t("social.full.price")}>
+      <PricingCard title={t("pricing.social.full.title")} price={t("pricing.social.full.price")}>
         <ul>
-          <li>{t("social.full.features.0")}</li>
-          <li>{t("social.full.features.1")}</li>
-          <li>{t("social.full.features.2")}</li>
+          <li>{t("pricing.social.full.features.0")}</li>
+          <li>{t("pricing.social.full.features.1")}</li>
+          <li>{t("pricing.social.full.features.2")}</li>
         </ul>
       </PricingCard>
-      <PricingCard title={t("social.full.title")} price={t("social.full.price")}>
+      <PricingCard title={t("pricing.social.full.title")} price={t("pricing.social.full.price")}>
         <ul>
-          <li>{t("social.full.features.0")}</li>
-          <li>{t("social.full.features.1")}</li>
-          <li>{t("social.full.features.2")}</li>
+          <li>{t("pricing.social.full.features.0")}</li>
+          <li>{t("pricing.social.full.features.1")}</li>
+          <li>{t("pricing.social.full.features.2")}</li>
         </ul>
       </PricingCard>
       </div>

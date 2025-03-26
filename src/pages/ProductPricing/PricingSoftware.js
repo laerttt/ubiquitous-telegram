@@ -8,25 +8,25 @@ const PricingSoftware = () => {
 
   return (
     <div className="pricing-page">
-      <PricingCard title={t("software.basic.title")} price={t("software.basic.price")}>
+      <PricingCard title={t("pricing.software.basic.title")} price={t("pricing.software.basic.price")}>
         <ul>
-          <li>{t("software.basic.features.0")}</li>
-          <li>{t("software.basic.features.1")}</li>
-          <li>{t("software.basic.features.2")}</li>
+          <li>{t("pricing.software.basic.features.0")}</li>
+          <li>{t("pricing.software.basic.features.1")}</li>
+          <li>{t("pricing.software.basic.features.2")}</li>
         </ul>
       </PricingCard>
-      <PricingCard title={t("software.advanced.title")} price={t("software.advanced.price")}>
+      <PricingCard title={t("pricing.software.advanced.title")} price={t("pricing.software.advanced.price")}>
         <ul>
-          <li>{t("software.advanced.features.0")}</li>
-          <li>{t("software.advanced.features.1")}</li>
-          <li>{t("software.advanced.features.2")}</li>
+          <li>{t("pricing.software.advanced.features.0")}</li>
+          <li>{t("pricing.software.advanced.features.1")}</li>
+          <li>{t("pricing.software.advanced.features.2")}</li>
         </ul>
       </PricingCard>
-      <PricingCard title={t("software.custom.title")} price={t("software.custom.price")}>
+      <PricingCard title={t("pricing.software.custom.title")} price={t("pricing.software.custom.price")}>
         <ul>
-          <li>{t("software.custom.features.0")}</li>
-          <li>{t("software.custom.features.1")}</li>
-          <li>{t("software.custom.features.2")}</li>
+          <li>{t("pricing.software.custom.features.0")}</li>
+          <li>{t("pricing.software.custom.features.1")}</li>
+          <li>{t("pricing.software.custom.features.2")}</li>
         </ul>
       </PricingCard>
     </div>
