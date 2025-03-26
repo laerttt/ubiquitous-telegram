@@ -36,9 +36,7 @@ function App() {
   return (
     <Router>
       <LangRouterWrapper>
-        <Headroom style={{ zIndex: 1000 }}>
-          <Header />
-        </Headroom>
+      <Header style={{ zIndex: 1000}} />
         <div className="main-content">
           <Routes>
           <Route path="/" element={<Navigate to="/en" replace />} />

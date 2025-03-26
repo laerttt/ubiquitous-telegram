@@ -1,4 +1,6 @@
 .header {
+  position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 100%;
@@ -31,21 +33,6 @@
 
 .flag-icon:hover {
   transform: scale(1.1);
-}
-
-body:has(div#root > div.main-content > div.home) .header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(3rem);
-  padding: 20px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
 }
 
 .logo-container:hover {
