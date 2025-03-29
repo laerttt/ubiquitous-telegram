@@ -2,7 +2,7 @@ import "../css/Home.css";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="home">
       <video autoPlay loop muted id="background-video">
-        <source src="/homevid.mp4" type="video/mp4" />
+        <source src="/homevid1.mp4" type="video/mp4" />
       </video>
       <div className="h2-container">
         <h2 className="welcome-message">

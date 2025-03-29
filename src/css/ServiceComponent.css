@@ -14,13 +14,17 @@
     text-align: center;
     flex-direction: column;
     color: aliceblue;
-    background-color: transparent;
-    backdrop-filter: blur(20px);
     width: 45%;
     max-height: fit-content;
     justify-content: center;
     padding: 50px;
     box-sizing: border-box;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 .serviceTextContainer p {
@@ -75,6 +79,7 @@ h2 {
     transition: width 0.3s ease;
     transform: translateX(-50%);
 }
+
 .custom-button:hover span::after {
     width: 100%;
 }

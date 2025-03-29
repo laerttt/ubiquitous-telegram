@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 .language-switcher {
   gap: 12px;

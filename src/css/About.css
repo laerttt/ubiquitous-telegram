@@ -93,7 +93,7 @@
   }
   
   .terminal_body {
-    background: transparent;
+    background: rgb(0, 0, 0, 0.45);
     height: calc(100% - 35px);
     padding-top: 6px;
     margin-top: -1px;
