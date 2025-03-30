@@ -13,8 +13,9 @@
   color: white;
   font-weight: medium;
   transition: transform 0.2s ease;
-  max-width: min-content;
-
+  max-width: 200px;
+  text-align: center;
+  justify-content: space-between;
   }
   
   .service-card:hover {

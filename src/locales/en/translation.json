@@ -5,15 +5,15 @@
     "button": "Our Services"
   },
   "services": {
-    "title": "What we offer...",
-    "subtitle": "Full Services",
+    "title": " Smart Services, Real Results",
+    "subtitle": "Everything You Need to Elevate Your Digital Presence",
     "businessWebsite": {
       "title": "Business Website",
       "description": "Websites for businesses of any kind"
     },
     "ai": {
-      "title": "Artificial Intelligence in your business",
-      "description": "Automating gruesome human tasks using AI, data entry automation leading to cost cutting"
+      "title": "AI Video Ads",
+      "description": "Next-Gen Ad Creation with Artificial Intelligence."
     },
     "social": {
       "title": "Social Media Management using Artificial Intelligence",
@@ -28,8 +28,8 @@
       "description": "Managing and creating call center applications"
     },
     "software": {
-      "title": "Software Development (Native/Desktop/WebApp)",
-      "description": "Custom applications of any kind tailored to your business needs."
+      "title": "Software Development",
+      "description": "Custom applications of any kind tailored to your business needs. <br/> (Native/Desktop/WebApp)"
     },
     "design": {
       "title": "Graphic Design UI/UX",

@@ -1,35 +1,35 @@
 {
   "home": {
-    "hero": "Partneri juaj në <1>Inovacion</1> dhe Ekselencë Dixhitale",
-    "subtitle": "Na lini ne të merremi me teknologjinë, që ju të fokusoheni në rritjen e biznesit tuaj.",
+    "hero": "Partneri juaj në <1>Inovacion</1> dhe Ekselencë Digjitale",
+    "subtitle": "Na lini ne të merremi me teknologjinë që ju të përqendroheni në rritjen e biznesit tuaj.",
     "button": "Shërbimet Tona"
   },
   "services": {
-    "title": "Çfarë ofrojmë...",
-    "subtitle": "Shërbime të Plota",
+    "title": " Shërbime Inteligjente, Rezultate të Vërteta",
+    "subtitle": "Gjithçka që ju nevojitet për të ngritur prezencën tuaj digjitale",
     "businessWebsite": {
-      "title": "Faqe Interneti për Biznese",
+      "title": "Faqe Web Biznesi",
       "description": "Faqe interneti për çdo lloj biznesi"
     },
     "ai": {
-      "title": "Inteligjenca Artificiale në biznesin tuaj",
-      "description": "Automatizimi i proceseve të lodhshme përmes IA-së, si automatizimi i të dhënave, duke ulur kostot"
+      "title": "Reklama Video me AI",
+      "description": "Gjenerata e ardhshme e krijimit të reklamave me Inteligjencë Artificiale."
     },
     "social": {
-      "title": "Menaxhimi i Rrjeteve Sociale me Inteligjencë Artificiale",
-      "description": "Krijimi i përmbajtjes për rrjetet sociale përmes IA-së"
+      "title": "Menaxhim i Rrjeteve Sociale me Inteligjencë Artificiale",
+      "description": "Krijimi i përmbajtjes për rrjete sociale me ndihmën e AI"
     },
     "chatbots": {
-      "title": "Chatbot-e / Mbështetje për Klientët sipas Kërkesës",
-      "description": "Mbështetje për klientët në çdo shkallë për biznesin tuaj"
+      "title": "Chatbots / Mbështetje për Klientët sipas Kërkesës",
+      "description": "Mbështetje për klientët në çdo shkallë për biznesin tuaj."
     },
     "crm": {
-      "title": "Menaxhim dhe Zgjerime të CRM",
-      "description": "Menaxhim dhe krijim aplikacionesh për call center"
+      "title": "Menaxhim dhe Zgjerim i CRM",
+      "description": "Menaxhimi dhe krijimi i aplikacioneve për call center"
     },
     "software": {
-      "title": "Zhvillim Softuerësh (Native/Desktop/WebApp)",
-      "description": "Aplikacione të personalizuara për çdo nevojë të biznesit tuaj"
+      "title": "Zhvillim Softueri",
+      "description": "Aplikacione të personalizuara për çdo nevojë të biznesit tuaj. <br/> (Native/Desktop/WebApp)"
     },
     "design": {
       "title": "Dizajn Grafik UI/UX",
@@ -42,23 +42,23 @@
   },
   "pricing": {
     "ai": {
-      "hero": "Rritni Brand-in tuaj me Reklama Video me Impakt të Lartë të Gjeneruara nga IA",
-      "subtitle": "Përdorni fuqinë e Inteligjencës Artificiale për të krijuar reklama video tërheqëse dhe të personalizuara që rrisin konvertimet",
-      "description": "Në një botë digjitale, reklamat video janë një nga mënyrat më të fuqishme për të tërhequr vëmendjen dhe angazhuar audiencën. Me shërbimet tona të Reklamave Video me IA, ne krijojmë reklama inteligjente, dinamike dhe të personalizuara për audiencën tuaj. Me teknologji të avancuar IA, optimizojmë përmbajtjen, sigurojmë rëndësi dhe rrisim angazhimin. Pavarësisht nëse dëshironi të promovoni një produkt të ri, të rrisni njohjen e markës ose të shtoni shitjet, reklamat tona video me IA janë një zgjidhje efektive dhe me kosto të ulët.",
-      "whyus": "Pse të na zgjidhni ne?",
+      "hero": "Rrit Markën Tuaj me Reklama Video të Avancuara nga AI",
+      "subtitle": "Përdorni fuqinë e Inteligjencës Artificiale për të krijuar reklama video të personalizuara dhe angazhuese që rrisin konvertimet",
+      "description": "Në një botë ku dixhitalja është prioritet, reklamat video janë një nga mënyrat më të fuqishme për të tërhequr vëmendjen dhe për të angazhuar audiencën tuaj. Por çfarë nëse mund të shkoni një hap më tej? Me shërbimet tona të Reklamave Video me AI, ne krijojmë reklama të zgjuara, dinamike dhe të përshtatura posaçërisht për audiencën tuaj. Të fuqizuara nga inteligjenca artificiale më e avancuar, këto reklama optimizojnë përmbajtjen, sigurojnë përkatësinë dhe nxisin përfshirje më të lartë. Qoftë për të promovuar një produkt të ri, për të rritur ndërgjegjësimin e markës apo për të gjeneruar më shumë shitje, reklamat tona të krijuara nga AI janë një zgjidhje me kosto efektive për të fuqizuar përpjekjet tuaja të marketingut.",
+      "whyus": "Pse të Zgjidhni Ne?",
       "reasons": [
-        "Inovacion i fuqizuar nga IA: <br/> Përdorim teknologjinë më të fundit për të krijuar reklama video të personalizuara dhe me performancë të lartë.",
-        "Reklama të personalizuara: <br/> Nuk përdorim modele gjenerike – krijojmë video të veçanta dhe me markimin tuaj, që flasin drejt për drejt me audiencën tuaj.",
-        "Shpejtësi & Efikasitet: <br/> Me automatizim të bazuar në IA, krijojmë reklama cilësore shpejt, që ju të nisni fushata në kohën e duhur."
+        "Inovacion i Fuqizuar nga AI: <br/> Përdorim teknologjinë më të fundit për të krijuar reklama video të personalizuara dhe me performancë të lartë.",
+        "Reklama të Personalizuara: <br/> Nuk përdorim shabllone standarde — ne krijojmë reklama unike, të markuara që i flasin drejtpërdrejt audiencës suaj.",
+        "Shpejtësi & Efikasitet: <br/> Me automatizim nga AI, krijojmë reklama me cilësi të lartë në kohë të shkurtër, për një lançim të shpejtë të fushatës."
       ],
       "ourprocess": "Procesi Ynë",
       "step": [
         "Konsultim: <br/> Fillojmë me një analizë të thelluar të markës suaj, audiencës dhe objektivave të marketingut.",
-        "Krijimi i Përmbajtjes: <br/> Mjetet tona me IA analizojnë të dhënat për të krijuar përmbajtje video tërheqëse për audiencën tuaj.",
-        "Rishikim & Nisje: <br/> Ju e rishikoni videon, dhe pas aprovimit, ne e lançojmë në platformat që zgjidhni."
+        "Krijimi i Përmbajtjes: <br/> Veglat tona me AI analizojnë të dhënat për të krijuar përmbajtje video angazhuese dhe të përshtatur.",
+        "Rishikim & Lançim: <br/> Ju rishikoni reklamën video dhe pas miratimit, ne e lançojmë në platformat që preferoni."
       ],
       "starter": {
-        "title": "Automation Starter",
+        "title": "Automatizim Fillestar",
         "price": "$99/muaj",
         "features": [
           "Përpunim formularësh",
@@ -71,57 +71,57 @@
         "features": [
           "Flukse të avancuara të të dhënave",
           "Logjikë e personalizuar automatizimi",
-          "Validim & eksport të dhënash"
+          "Validim dhe eksportim të të dhënave"
         ]
       },
       "custom": {
-        "title": "Integrim i Personalizuar IA",
+        "title": "Integrim i Personalizuar me AI",
         "price": "Na Kontaktoni",
         "features": [
-          "Zgjidhje IA të personalizuara",
-          "Konsulencë një më një",
+          "Zgjidhje të personalizuara me AI",
+          "Konsultim një për një",
           "Mbështetje e plotë për zbatim"
         ]
       },
-      "outrotitle": "Gati për të çuar marketingun tuaj në nivelin tjetër?",
-      "outrosubtitle": "Reklamat tona video me IA janë mënyra perfekte për të krijuar përmbajtje të personalizuar dhe me ndikim që sjell rezultat. Na lejoni t’ju ndihmojmë të dalloheni në një treg të mbingarkuar dhe të merrni ROI që kërkoni. Gati të fillojmë? Le të krijojmë diçka fantastike së bashku!"
+      "outrotitle": "Gati për të ngritur lojën tuaj të marketingut?",
+      "outrosubtitle": "Reklamat tona video me AI janë mënyra ideale për të krijuar përmbajtje të personalizuar, të optimizuar dhe angazhuese që japin rezultate reale. Qoftë për të rritur ndërgjegjësimin e markës, për të gjeneruar më shumë klientë potencialë apo për të shtuar shitjet, reklamat tona me AI do t'ju ndihmojnë të arrini qëllimet tuaja më shpejt dhe më mirë. Le të krijojmë diçka të jashtëzakonshme së bashku!"
     },
     "website": {
-      "hero": "Transformoni Prezencën Tuaj Online me Programim Profesionist Faqesh Web",
-      "subtitle": "Faqe të personalizuara, të shkallëzueshme dhe me performancë të lartë për suksesin tuaj",
-      "description": "Në ditët e sotme, faqja juaj e internetit nuk është vetëm një vitrinë – është themeli i suksesit të biznesit tuaj. Ne ofrojmë zgjidhje të avancuara që përmirësojnë përvojën e përdoruesit, rrisin angazhimin dhe maksimizojnë normat e konvertimit.",
-      "whyus": "Pse të na zgjidhni ne?",
+      "hero": "Transformoni Prezencën Tuaj Online me Website të Personalizuar",
+      "subtitle": "Website të personalizuara, të shkallëzueshme dhe me performancë të lartë të ndërtuara për suksesin tuaj",
+      "description": "Në botën e sotme digjitale, faqja juaj e internetit është më shumë sesa një prezantim — është gurthemeli i suksesit të biznesit tuaj. Shërbimi ynë i Programimit të Website-it ofron faqe funksionale, të bukura dhe të përshtatura sipas nevojave tuaja specifike. Qoftë nëse jeni duke filluar nga e para apo dëshironi të përmirësoni faqen ekzistuese, ne ofrojmë zgjidhje moderne që përmirësojnë përvojën e përdoruesit, rrisin përfshirjen dhe maksimalizojnë konvertimet.",
+      "whyus": "Pse të Zgjidhni Ne?",
       "reasons": [
-        "Zhvillues Ekspertë: <br/> Ekipi ynë ka eksperiencë të dëshmuar në ndërtimin e faqeve që konvertojnë vizitorët në klientë.",
-        "Qasje të orientuar nga klienti: <br/> Dëgjojmë nevojat tuaja dhe ofrojmë zgjidhje që nuk janë vetëm estetike, por edhe të dobishme për objektivat tuaja.",
-        "Çmime të përballueshme dhe transparente: <br/> Pa tarifa të fshehura. Ofrim i çmimeve të qarta dhe paketa fleksibël për çdo buxhet."
+        "Zhvillues Ekspertë: <br/> Ekipi ynë ka përvojë në krijimin e website-ve që konvertojnë vizitorët në klientë.",
+        "Qasje e Orientuar nga Klienti: <br/> Dëgjojmë nevojat tuaja dhe ofrojmë zgjidhje që i shërbejnë qëllimeve tuaja të biznesit.",
+        "Çmime të Përballueshme dhe Transparente: <br/> Pa tarifa të fshehura. Ofrim çmimesh të qarta me paketa fleksibël."
       ],
       "ourprocess": "Procesi Ynë",
       "step": [
-        "Konsultim & Planifikim: <br/> Kuptojmë biznesin dhe objektivat tuaja për të krijuar një plan të personalizuar.",
-        "Dizajnim & Zhvillim: <br/> Ekipi ynë dizajnon dhe zhvillon një faqe unike dhe responsive, në bashkëpunim të ngushtë me ju.",
-        "Lançimi: <br/> Pas testimeve të plota, faqja hidhet në funksionim të plotë."
+        "Konsultim & Planifikim: <br/> Kuptojmë biznesin tuaj dhe krijojmë një plan të detajuar për të përmbushur objektivat.",
+        "Dizajnim & Zhvillim: <br/> Ekipi ynë bashkëpunon ngushtë për të krijuar një faqe unike dhe të përgjegjshme.",
+        "Lançim: <br/> Kryejmë testime të plota përpara lançimit për t'u siguruar që gjithçka funksionon në mënyrë të përsosur."
       ],
       "basic": {
         "title": "Website Bazë",
         "price": "$149",
         "features": [
-          "1-3 faqe",
-          "Dizajn i përshtatshëm për pajisje të ndryshme",
+          "1-3 Faqe",
+          "Dizajn i përshtatshëm",
           "Formular kontakti"
         ]
       },
       "pro": {
-        "title": "Business Pro",
+        "title": "Biznes Pro",
         "price": "$349",
         "features": [
           "Deri në 8 faqe",
-          "Optimizim për SEO",
-          "Brandim i personalizuar"
+          "Optimizim SEO",
+          "Markim i personalizuar"
         ]
       },
       "enterprise": {
-        "title": "Paketa Enterprise",
+        "title": "Paketë Enterprise",
         "price": "Na Kontaktoni",
         "features": [
           "Faqe të pakufizuara",
@@ -129,61 +129,14 @@
           "Mbështetje e dedikuar"
         ]
       },
-      "outrotitle": "Gati për të çuar marketingun tuaj në nivelin tjetër?",
-      "outrosubtitle": "Kjo paketë është për biznese në çdo fazë zhvillimi. Ju ndihmojmë të realizoni vizionin tuaj dhe të përforconi prezencën në internet me rezultate konkrete."
-    },
-    "webapp": {
-      "hero": "Krijoni Aplikacione Web dhe Mobile me Performancë të Lartë për Biznesin Tuaj",
-      "subtitle": "Zgjidhje inovative, të përshtatshme për përdoruesit dhe të shkallëzueshme për platformat Web dhe Mobile",
-      "description": "Në një botë mobile-first, një aplikacion i mirë ndihmon në përfshirjen e klientëve dhe qëndrueshmëri konkurruese. Ofruam zgjidhje të personalizuara nga konceptimi deri në lançim, duke garantuar përvojë të shkëlqyer për përdoruesit.",
-      "whyus": "Pse të na zgjidhni ne?",
-      "reasons": [
-        "Ekip Zhvillimi Ekspert: <br/> Ekspertizë e thellë në ndërtimin e aplikacioneve të sigurta dhe inovative.",
-        "Dizajn i orientuar nga përdoruesi: <br/> UI/UX tërheqës dhe intuitiv për përdorim të lehtë dhe të këndshëm.",
-        "Zhvillim nga fillimi në fund: <br/> Mbulojmë çdo hap të procesit, nga ideja deri në publikim.",
-        "Zgjidhje të qëndrueshme: <br/> Ndërtojmë aplikacione që përshtaten me teknologjitë e ardhshme dhe rritjen e biznesit."
-      ],
-      "ourprocess": "Procesi Ynë",
-      "step": [
-        "Konsultim & Konceptim: <br/> Marrim informacion të detajuar për objektivat dhe zhvillojmë një plan të qartë.",
-        "Dizajnim & Zhvillim: <br/> Krijojmë UI/UX me cilësi të lartë dhe zhvillojmë me fokus në performancë.",
-        "Testim, Lançim & Mbështetje pas lançimit: <br/> Sigurojmë funksionim të përsosur në çdo pajisje dhe mbështetje pas lançimit për optimizim të vazhdueshëm."
-      ],
-      "basic": {
-        "title": "App Fillestare",
-        "price": "Nga $499",
-        "features": [
-          "Faqe hyrëse ose MVP",
-          "Dizajn UI dhe publikim",
-          "Baza në React ose Vue"
-        ]
-      },
-      "advanced": {
-        "title": "Ndërtim i Avancuar",
-        "price": "Nga $1299",
-        "features": [
-          "Integrim backend",
-          "Autentifikim, forma, ruajtje",
-          "Përfshirë panel administrimi"
-        ]
-      },
-      "custom": {
-        "title": "Aplikacion i Personalizuar",
-        "price": "Na Kontaktoni",
-        "features": [
-          "Logjikë unike e biznesit tuaj",
-          "Integrim IA & analitikë",
-          "Ekip zhvillimi i dedikuar"
-        ]
-      },
-      "outrotitle": "Të Ndërtojmë Diçka të Fuqishme Së Bashku",
-      "outrosubtitle": "Shërbimet tona për zhvillim aplikacionesh ofrojnë përvojë të këndshme për përdoruesit dhe teknologji të avancuar që përshtaten me nevojat tuaja. Ejani të krijojmë një aplikacion që ka ndikim të vërtetë për biznesin tuaj."
+      "outrotitle": "Gati për të ngritur lojën tuaj të marketingut?",
+      "outrosubtitle": "Kjo paketë i shërben bizneseve në çdo fazë zhvillimi, duke ofruar rezultate cilësore me një qasje të personalizuar. Le të sjellim në jetë vizionin tuaj, të forcojmë prezencën tuaj online dhe të sjellim rezultatet që kanë rëndësi."
     }
   },
   "contact": {
     "title": "Na Kontaktoni",
-    "subtitle": "Na vjen mirë të dëgjojmë nga ju. Dërgoni pyetjet apo idetë tuaja.",
-    "infoTitle": "Informacion Kontakti",
+    "subtitle": "Na pëlqen të dëgjojmë nga ju. Na shkruani me pyetjet apo idetë tuaja.",
+    "infoTitle": "Të dhënat e Kontaktit",
     "address": "Rr. Ismail Qemali, Tiranë, Shqipëri",
     "phone": "+355 69 123 4567",
     "email": "info@debuggersoftware.com",

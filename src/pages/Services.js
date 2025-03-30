@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Services.css";
 import ServiceComponent from "../components/ServiceComponent";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import ServiceCard from "../components/ServiceCard";
 
@@ -17,32 +17,28 @@ function Services() {
       </video>
       <div className="services-content"> 
         <div className="service-intro">
-          <h2>{t(" Smart Services, Real Results")}</h2>
-          <p>{t("Everything You Need to Elevate Your Digital Presence")}</p>
+          <h2><Trans i18nKey="services.title" /></h2>
+          <p><Trans i18nKey="services.subtitle"/></p>
         </div>
         <div className="info-page">
-          <ServiceCard title="AI Video Ads" imgLink="/971.jpg" link={`/${langPrefix}/pricing/ai`}>
+          <ServiceCard title={<Trans i18nKey="services.ai.title"/>} imgLink="/aivideos.png" link={`/${langPrefix}/pricing/ai`}>
             <p>
-              Aute pariatur magna ea adipisicing non ipsum. Ea veniam enim
-              pariatur.
+            <Trans i18nKey="services.ai.description"/>
             </p>
           </ServiceCard>
-          <ServiceCard title="WebApps" imgLink="/971.jpg" link={`/${langPrefix}/pricing/webapp`}>
+          <ServiceCard title={<Trans i18nKey="services.software.title"/>} imgLink="/softwaredev.png" link={`/${langPrefix}/pricing/webapp`}>
             <p>
-              Aute pariatur magna ea adipisicing non ipsum. Ea veniam enim
-              pariatur.
+            <Trans i18nKey="services.software.description"/>
             </p>
           </ServiceCard>
-          <ServiceCard title="Websites" imgLink="/971.jpg" link={`/${langPrefix}/pricing/website`}>
+          <ServiceCard title={<Trans i18nKey="services.businessWebsite.title"/>} imgLink="/website.png" link={`/${langPrefix}/pricing/website`}>
             <p>
-              Aute pariatur magna ea adipisicing non ipsum. Ea veniam enim
-              pariatur.
+            <Trans i18nKey="services.businessWebsite.description"/>
             </p>
           </ServiceCard>
-          <ServiceCard title="AI Video Ads" imgLink="/971.jpg">
+          <ServiceCard title={<Trans i18nKey="services.design.title"/>} imgLink="/grapick.png" link={`/${langPrefix}/pricing/design`}>
             <p>
-              Aute pariatur magna ea adipisicing non ipsum. Ea veniam enim
-              pariatur.
+            {<Trans i18nKey="services.design.description"/>}
             </p>
           </ServiceCard>
         </div>
