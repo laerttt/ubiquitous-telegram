@@ -12,7 +12,7 @@ function Services() {
   return (
     <div className="services-container">
       <video autoPlay loop muted id="background-video">
-        <source src="/archive.mp4" type="video/mp4" />
+        <source src={`${process.env.PUBLIC_URL}/archive.mp4`} type="video/mp4" />
       </video>
       <div className="services-content"> 
         <div className="service-intro">
@@ -20,22 +20,22 @@ function Services() {
           <p><Trans i18nKey="services.subtitle"/></p>
         </div>
         <div className="info-page">
-          <ServiceCard title={<Trans i18nKey="services.ai.title"/>} imgLink="/aivideos.png" link={`/${langPrefix}/pricing/ai`}>
+          <ServiceCard title={<Trans i18nKey="services.ai.title"/>} imgLink={process.env.PUBLIC_URL + '/aivideos.png'} link={`/${langPrefix}/pricing/ai`}>
             <p>
             <Trans i18nKey="services.ai.description"/>
             </p>
           </ServiceCard>
-          <ServiceCard title={<Trans i18nKey="services.software.title"/>} imgLink="/softwaredev.png" link={`/${langPrefix}/pricing/webapp`}>
+          <ServiceCard title={<Trans i18nKey="services.software.title"/>} imgLink={process.env.PUBLIC_URL + '/softwaredev.png'} link={`/${langPrefix}/pricing/webapp`}>
             <p>
             <Trans i18nKey="services.software.description"/>
             </p>
           </ServiceCard>
-          <ServiceCard title={<Trans i18nKey="services.businessWebsite.title"/>} imgLink="/website.png" link={`/${langPrefix}/pricing/website`}>
+          <ServiceCard title={<Trans i18nKey="services.businessWebsite.title"/>} imgLink={process.env.PUBLIC_URL + '/website.png'} link={`/${langPrefix}/pricing/website`}>
             <p>
             <Trans i18nKey="services.businessWebsite.description"/>
             </p>
           </ServiceCard>
-          <ServiceCard title={<Trans i18nKey="services.design.title"/>} imgLink="/grapick.png" link={`/${langPrefix}/pricing/design`}>
+          <ServiceCard title={<Trans i18nKey="services.design.title"/>} imgLink={process.env.PUBLIC_URL + '/grapick.png'} link={`/${langPrefix}/pricing/design`}>
             <p>
             {<Trans i18nKey="services.design.description"/>}
             </p>

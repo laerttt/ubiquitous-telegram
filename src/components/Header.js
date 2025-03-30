@@ -29,7 +29,7 @@ function Header() {
     <header className="header">
       <Link to={langPrefix} className="logo-container">
         <img
-          src="/logo-white.svg"
+          src={`${process.env.PUBLIC_URL}/logo-white.svg`}
           alt="Debugger Software Logo"
           className="header-logo"
         />
@@ -54,10 +54,10 @@ function Header() {
         </div>
         <div className="language-switcher">
           <Link to={getLanguageLink("al")} className="flag-link" title="Shqip">
-            <img src="/albania.png" alt="Albanian" className="flag-icon" />
+            <img src={`${process.env.PUBLIC_URL}/albania.png`} alt="Albanian" className="flag-icon" />
           </Link>
           <Link to={getLanguageLink("en")} className="flag-link" title="English">
-            <img src="/uk.png" alt="English" className="flag-icon" />
+            <img src={`${process.env.PUBLIC_URL}/uk.png`} alt="English" className="flag-icon" />
           </Link>
         </div>
       </div>

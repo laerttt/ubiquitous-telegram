@@ -8,7 +8,7 @@ const PricingWebsite = () => {
   return (
     <div className="pricing-page-website">
       <video autoPlay loop muted id="background-video">
-        <source src="/phonebrowsing.mp4" type="video/mp4" />
+        <source src={`${process.env.PUBLIC_URL}/phonebrowsing.mp4`} type="video/mp4" />
       </video>
 
       <div className="pricing-page-container">

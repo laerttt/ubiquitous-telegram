@@ -1,5 +1,6 @@
 body:has(div#root > div.main-content > div.pricing-page-website) {
   background-image: url('../../public/phonebrowsingstatic.png');
+
   object-fit: cover;
   background-size: cover;
   background-position: center;
