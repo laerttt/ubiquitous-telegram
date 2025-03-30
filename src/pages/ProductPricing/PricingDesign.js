@@ -8,7 +8,7 @@ const PricingDesign = () => {
   const { i18n } = useTranslation();
 
   return (
-    <div>
+    <div className="pricing-page-design">
       <video autoPlay loop muted id="background-video">
         <source src="/adobe.mp4" type="video/mp4" />
       </video>

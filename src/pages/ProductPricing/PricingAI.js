@@ -7,7 +7,7 @@ import "../../css/Pricing.css";
 const PricingAI = () => {
   const { i18n } = useTranslation(); // 👈 ensures proper reactivity on language change
   return (
-    <div>
+    <div className="pricing-page-ai">
       <video autoPlay loop muted id="background-video">
         <source src="/filming.mp4" type="video/mp4" />
       </video>

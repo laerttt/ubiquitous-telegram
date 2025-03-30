@@ -8,7 +8,7 @@ const PricingWebApp = () => {
   const { i18n } = useTranslation(); // 👈 ensures proper reactivity on language change
 
   return (
-    <div>
+    <div className="pricing-page-webapp">
       <video autoPlay loop muted id="background-video">
         <source src="/laptopbg2.mp4" type="video/mp4" />
       </video>

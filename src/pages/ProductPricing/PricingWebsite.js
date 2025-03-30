@@ -6,7 +6,7 @@ import "../../css/Pricing.css";
 
 const PricingWebsite = () => {
   return (
-    <div>
+    <div className="pricing-page-website">
       <video autoPlay loop muted id="background-video">
         <source src="/phonebrowsing.mp4" type="video/mp4" />
       </video>

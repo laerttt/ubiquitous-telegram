@@ -1,5 +1,53 @@
-body:not(:has(div#root > div.main-content > div.home)) {
-  background-image: url('../../public/materialbg.jpg');
+body:has(div#root > div.main-content > div.pricing-page-website) {
+  background-image: url('../../public/phonebrowsingstatic.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body:has(div#root > div.main-content > div.pricing-page-ai) {
+  background-image: url('../../public/filmingstatic.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body:has(div#root > div.main-content > div.pricing-page-webapp) {
+  background-image: url('../../public/laptopbgstatic.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body:has(div#root > div.main-content > div.pricing-page-design) {
+  background-image: url('../../public/adobestatic.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body:has(div#root > div.main-content > div.about-container) {
+  background-image: url('../../public/homevidstatic.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body:has(div#root > div.main-content > div.services-container) {
+  background-image: url('../../public/archivestatic.png');
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body:has(div#root > div.main-content > div.contact-page) {
+  background-image: url('../../public/groupdstatic.png');
   object-fit: cover;
   background-size: cover;
   background-position: center;
@@ -8,7 +56,7 @@ body:not(:has(div#root > div.main-content > div.home)) {
 }
 
 body:has(div#root > div.main-content > div.home) {
-  background-image: url('../../public/static background.png');
+  background-image: url('../../public/kreustati.png');
   object-fit: cover;
   background-size: cover;
   background-position: center;
