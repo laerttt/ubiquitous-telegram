@@ -58,7 +58,7 @@
 .home button {
   background-color: white;
   width: 200px;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255,100);
+  text-shadow: none !important;
   height: 50px;
   color: black;
   border: none;
@@ -136,6 +136,9 @@
   .home button:active {
     width: 200px;
   }
+}
+.home button * {
+  text-shadow: none !important;
 }
 
 /* Extra small devices (phones) */

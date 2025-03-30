@@ -1,43 +1,102 @@
 .service-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.2s;
-    text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: medium;
+  transition: transform 0.2s ease;
+  max-width: min-content;
+
   }
   
   .service-card:hover {
-    transform: translateY(-5px);
+    transform: scale(1.02);
   }
   
-  .service-card__image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+  .service-card-image {
+    width: 200px; 
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  .service-card-image:hover {
+    transform: scale(1.02);
   }
   
-  .service-card__content {
-    padding: 16px;
-  }
-  
-  .service-card__title {
+  .service-card-title {
     font-size: 1.5em;
     margin: 0.5em 0;
   }
   
-  .service-card__description {
+  .service-card-description {
     font-size: 1em;
-    color: #666;
+    color: white;
+    text-align: center;
   }
-  
-  .service-card__link {
+
+  .service-card-button-container {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 10px 0px 10px;
+  }
+
+  .custom-button {
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: smaller;
+    line-height: 25px;
+}
+
+.custom-button span {
+    position: relative;
     display: inline-block;
-    margin-top: 1em;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .service-card__link:hover {
-    text-decoration: underline;
-  }
-  
+}
+
+.custom-button span::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 2px;
+    left: 50%;
+    background-color: black;
+    transition: width 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.custom-button:hover span::after {
+    width: 100%;
+}
+
+.custom-button:hover {
+    background-color: white;
+    width: 110px;
+}
+
+.custom-button:active {
+    width: 140px;
+}
+
+.custom-button * {
+  text-shadow: none !important; 
+}

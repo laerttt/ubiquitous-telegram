@@ -15,7 +15,7 @@ import PricingAI from "./pages/ProductPricing/PricingAI";
 import PricingSocialMedia from "./pages/ProductPricing/PricingSocialMedia";
 import PricingChatbots from "./pages/ProductPricing/PricingChatbots";
 import PricingCRM from "./pages/ProductPricing/PricingCRM";
-import PricingSoftware from "./pages/ProductPricing/PricingSoftware";
+import PricingWebApp from "./pages/ProductPricing/PricingWebApp";
 import { Navigate } from "react-router-dom";
 import Contact from "./pages/Contact";
 
@@ -51,7 +51,7 @@ function App() {
             <Route path="/en/pricing/social-media" element={<PricingSocialMedia />} />
             <Route path="/en/pricing/chatbots" element={<PricingChatbots />} />
             <Route path="/en/pricing/crm" element={<PricingCRM />} />
-            <Route path="/en/pricing/software" element={<PricingSoftware />} />
+            <Route path="/en/pricing/webapp" element={<PricingWebApp />} />
 
             {/* Albanian */}
             <Route path="/al" element={<Home />} />
@@ -63,7 +63,7 @@ function App() {
             <Route path="/al/pricing/social-media" element={<PricingSocialMedia />} />
             <Route path="/al/pricing/chatbots" element={<PricingChatbots />} />
             <Route path="/al/pricing/crm" element={<PricingCRM />} />
-            <Route path="/al/pricing/software" element={<PricingSoftware />} />
+            <Route path="/al/pricing/webapp" element={<PricingWebApp />} />
           </Routes>
         </div>
         <Footer style={{ zIndex: 1000 }} />

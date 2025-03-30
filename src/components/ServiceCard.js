@@ -1,21 +1,22 @@
 import React from "react";
-import "../css/InfoCard.css";
+import { Link } from "react-router-dom";
+import "../css/ServiceCard.css";
 
-const InfoCard = ({ title, imgLink, children }) => {
+const ServiceCard = ({ title, imgLink, link, children }) => {
   return (
-    <div className="info-dark-card">
+    <div className="service-card">
       {imgLink && (
-        <img
-          src={imgLink}
-          alt="Info Card"
-          className="info-dark-image"
-          style={{ width: "100%", height: "auto", objectFit: "cover", borderRadius: "8px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }}
-        />
+        <img src={imgLink} alt="Info Card" className="service-card-image" />
       )}
-      <h2 className="info-dark-title">{title}</h2>
-      <div className="info-dark-content">{children}</div>
+      <h2 className="service-card-title">{title}</h2>
+      <div className="service-card-description">{children}</div>
+      {link && (
+        <Link to={link} className="custom-button">
+          <span>Learn more</span>
+        </Link>
+      )}
     </div>
   );
 };
 
-export default InfoCard;
+export default ServiceCard;

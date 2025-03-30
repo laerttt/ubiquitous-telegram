@@ -1,169 +1,185 @@
 {
-    "home": {
-      "hero": "Your Partner in <1>Innovation</1> and Digital Excellence",
-      "subtitle": "Let us handle the tech so you can focus on growing your business.",
-      "button": "Our Services"
+  "home": {
+    "hero": "Your Partner in <1>Innovation</1> and Digital Excellence",
+    "subtitle": "Let us handle the tech so you can focus on growing your business.",
+    "button": "Our Services"
+  },
+  "services": {
+    "title": "What we offer...",
+    "subtitle": "Full Services",
+    "businessWebsite": {
+      "title": "Business Website",
+      "description": "Websites for businesses of any kind"
     },
-  
-
-    "services": {
-  "title": "What we offer...",
-  "subtitle": "Full Services",
-  "businessWebsite": {
-    "title": "Business Website",
-    "description": "Websites for businesses of any kind"
-  },
-  "ai": {
-    "title": "Artificial Intelligence in your business",
-    "description": "Automating gruesome human tasks using AI, data entry automation leading to cost cutting"
-  },
-  "social": {
-    "title": "Social Media Management using Artificial Intelligence",
-    "description": "Creating Social Media content using AI"
-  },
-  "chatbots": {
-    "title": "Chatbots/Customer Support on Demand",
-    "description": "Customer Support of any scale for your business."
-  },
-  "crm": {
-    "title": "CRM management and extensions",
-    "description": "Managing and creating call center applications"
-  },
-  "software": {
-    "title": "Software Development (Native/Desktop/WebApp)",
-    "description": "Custom applications of any kind tailored to your business needs."
-  },
-  "design": {
-    "title": "Graphic Design UI/UX",
-    "description": "Managing and streamlining your marketing department"
-  },
-  "courses": {
-    "title": "Programming Courses and Projects",
-    "description": "Solving programming-related challenges for students and beginners"
-  }
-},
-"pricing": {
-  "ai": {
-    "starter": {
-      "title": "Automation Starter",
-      "price": "$99/month",
-      "features": [
-        "Data entry automation",
-        "Form processing",
-        "Up to 1,000 rows/mo"
-      ]
+    "ai": {
+      "title": "Artificial Intelligence in your business",
+      "description": "Automating gruesome human tasks using AI, data entry automation leading to cost cutting"
     },
-    "pro": {
-      "title": "AI Pro",
-      "price": "$299/month",
-      "features": [
-        "Advanced data workflows",
-        "Custom automation logic",
-        "Data validation & export"
-      ]
+    "social": {
+      "title": "Social Media Management using Artificial Intelligence",
+      "description": "Creating Social Media content using AI"
     },
-    "custom": {
-      "title": "Custom AI Integration",
-      "price": "Contact Us",
-      "features": [
-        "Tailored AI solutions",
-        "One-on-one consultancy",
-        "Full deployment support"
-      ]
+    "chatbots": {
+      "title": "Chatbots/Customer Support on Demand",
+      "description": "Customer Support of any scale for your business."
+    },
+    "crm": {
+      "title": "CRM management and extensions",
+      "description": "Managing and creating call center applications"
+    },
+    "software": {
+      "title": "Software Development (Native/Desktop/WebApp)",
+      "description": "Custom applications of any kind tailored to your business needs."
+    },
+    "design": {
+      "title": "Graphic Design UI/UX",
+      "description": "Managing and streamlining your marketing department"
+    },
+    "courses": {
+      "title": "Programming Courses and Projects",
+      "description": "Solving programming-related challenges for students and beginners"
     }
   },
-  "website": {
-    "basic": {
-      "title": "Basic Website",
-      "price": "$149",
-      "features": ["1-3 Pages", "Responsive design", "Contact form"]
+  "pricing": {
+    "ai": {
+      "hero": "Boost Your Brand with High-Impact AI-Driven Video Ads",
+      "subtitle": "Leverage the Power of Artificial Intelligence to Create Engaging, Personalized Video Ads That Drive Conversions",
+      "description": "In a digital-first world, video ads are one of the most powerful ways to capture attention and engage your audience. But what if you could take it a step further? With our AI Video Ad services, we create smart, dynamic video advertisements tailored specifically to your target audience. Powered by cutting-edge artificial intelligence, our video ads optimize content, ensure relevance, and drive higher engagement rates. Whether you’re looking to promote a new product, boost brand awareness, or increase conversions, our AI-driven video ads offer a cost-effective solution to supercharge your marketing efforts.",
+      "whyus": "Why Choose Us?",
+      "reasons": [
+        "AI-Powered Innovation: <br/> We leverage the latest in AI technology to deliver next-level video ads that are highly personalized and optimized for performance.",
+        "Custom-Tailored Ads: <br/> We don’t just use generic templates—we create unique, branded video ads that speak to your audience’s interests, needs, and preferences.",
+        "Speed & Efficiency: <br/> With AI-driven automation, we create high-quality video ads quickly, allowing you to launch campaigns faster and reach your audience at the right moment."
+      ],
+      "ourprocess": "Our Process",
+      "step": [
+        "Consultation: <br/> We start with a deep dive into your brand, target audience, and marketing goals.",
+        "Content Creation: <br/> Our AI tools analyze data to create engaging video content tailored to your audience.",
+        "Review & Launch: <br/> You review the video ad, and once approved, we launch it across your chosen platforms."
+      ],
+      "starter": {
+        "title": "Automation Starter",
+        "price": "$99/month",
+        "features": [
+          "Form processing",
+          "Up to 1,000 rows/mo"
+        ]
+      },
+      "pro": {
+        "title": "AI Pro",
+        "price": "$299/month",
+        "features": [
+          "Advanced data workflows",
+          "Custom automation logic",
+          "Data validation & export"
+        ]
+      },
+      "custom": {
+        "title": "Custom AI Integration",
+        "price": "Contact Us",
+        "features": [
+          "Tailored AI solutions",
+          "One-on-one consultancy",
+          "Full deployment support"
+        ]
+      },
+      "outrotitle": "Ready to Elevate Your Marketing Game?",
+      "outrosubtitle": "Our AI Video Ads are the perfect way to take your marketing to the next level by creating personalized, optimized, and engaging content that drives results. Whether you're looking to increase brand awareness, generate leads, or boost sales, AI-driven video ads can help you achieve your goals faster and more efficiently. Let us help you create video ads that stand out in a crowded digital landscape and deliver the ROI you need. Ready to get started? Let’s create something amazing together!"
     },
-    "pro": {
-      "title": "Business Pro",
-      "price": "$349",
-      "features": ["Up to 8 pages", "SEO Optimization", "Custom branding"]
+    "website": {
+      "hero": "Transform Your Online Presence with Expert Website Programming",
+      "subtitle": "Custom, Scalable, and High-Performance Websites Built for Your Success",
+      "description": "In today's digital-first world, your website is more than just a place to showcase your brand – it's the cornerstone of your business's success. Our Website Programming service delivers highly functional, beautifully designed, and seamless websites tailored to meet your specific needs. Whether you're starting from scratch or looking to improve your current site, we provide cutting-edge solutions that enhance user experience, boost engagement, and maximize conversion rates.",
+      "whyus": "Why Choose Us?",
+      "reasons": [
+        "Expert Developers: <br/> Our team of experienced web developers has a proven track record in creating websites that convert visitors into customers.",
+        "Customer-Centric Approach: <br/> We listen to your needs and focus on providing solutions that not only look good but also serve your business goals",
+        "Affordable, Transparent Pricing: <br/> No hidden fees. We provide clear, upfront pricing with flexible packages to fit your budget."
+      ],
+      "ourprocess": "Our Process",
+      "step": [
+        "Consultation & Planning: <br/> We’ll start by understanding your business, goals, and vision. Our team will create a tailored roadmap to ensure the project aligns with your expectations and business objectives.",
+        "Design & Development: <br/> Our developers and designers work closely together to create a unique and responsive website. We'll incorporate your feedback throughout the design process, ensuring every detail matches your brand.",
+        "Launch: <br/> Once your site is ready, we’ll conduct thorough testing to ensure everything works perfectly."
+      ],
+      "basic": {
+        "title": "Basic Website",
+        "price": "$149",
+        "features": [
+          "1-3 Pages",
+          "Responsive design",
+          "Contact form"
+        ]
+      },
+      "pro": {
+        "title": "Business Pro",
+        "price": "$349",
+        "features": [
+          "Up to 8 pages",
+          "SEO Optimization",
+          "Custom branding"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise Web Package",
+        "price": "Contact Us",
+        "features": [
+          "Unlimited pages",
+          "Custom integrations",
+          "Dedicated support"
+        ]
+      },
+      "outrotitle": "Ready to Elevate Your Marketing Game?",
+      "outrosubtitle": "This package is designed to cater to businesses at any stage of growth, delivering high-quality results with a personal touch. Let us help you bring your vision to life, boost your online presence, and drive results that matter."
     },
-    "enterprise": {
-      "title": "Enterprise Web Package",
-      "price": "Contact Us",
-      "features": ["Unlimited pages", "Custom integrations", "Dedicated support"]
+    "webapp": {
+      "hero": "Create Seamless, High-Performance Web and Mobile Apps for Your Business",
+      "subtitle": "Innovative, User-Friendly, and Scalable Solutions for Web and Mobile Platforms",
+      "description": "In today’s mobile-first world, having a dynamic and high-performing web or mobile application is essential for staying competitive. Whether you need a custom-built web app for your business or a mobile app to engage your customers on-the-go, our Web and Mobile App Development services provide tailored solutions designed to deliver outstanding user experiences. From ideation to launch, we ensure that your app is intuitive, secure, and capable of scaling with your business.",
+      "whyus": "Why Choose Us?",
+      "reasons": [
+        "Expert Development Team: <br/> Our team of experienced developers has deep expertise in building innovative, reliable, and secure web and mobile applications.",
+        "User-Centered Design: <br/> We create user interfaces that are not only visually appealing but also highly intuitive, ensuring an exceptional user experience.",
+        "End-to-End Development: <br/> From concept to deployment, we manage the entire app development process, offering continuous support to ensure the best outcomes.",
+        "Future-Proof Solutions: <br/> We build apps that can easily adapt to changing technology and business needs, ensuring long-term viability."
+      ],
+      "ourprocess": "Our Process",
+      "step": [
+        "Consultation & Conceptualization: <br/> We begin with an in-depth consultation to understand your business goals and app requirements. Based on your needs, our team will develop a comprehensive roadmap for the project, including wireframes and feature specifications.",
+        "Design & Development: <br/> Our design team will create high-fidelity UI/UX designs that represent your brand and optimize user experience. Our development team will then build the app, focusing on clean code, scalability, and performance across multiple devices and platforms.",
+        "Testing, Launch & Post-Launch Support: <br/> Once the app is built, we conduct rigorous testing to ensure it works seamlessly across all devices. After the launch, we provide post-launch support, monitoring performance, and making necessary adjustments to optimize functionality."
+      ],
+      "basic": {
+        "title": "Starter App",
+        "price": "From $499",
+        "features": [
+          "Landing page or MVP",
+          "UI design & deployment",
+          "React or Vue base"
+        ]
+      },
+      "advanced": {
+        "title": "Advanced Build",
+        "price": "From $1299",
+        "features": [
+          "Backend integration",
+          "Auth, forms, storage",
+          "Admin dashboard included"
+        ]
+      },
+      "custom": {
+        "title": "Custom Application",
+        "price": "Contact Us",
+        "features": [
+          "Your unique business logic",
+          "AI & analytics integration",
+          "Dedicated dev team"
+        ]
+      },
+      "outrotitle": "Let’s Build Something Powerful Together",
+      "outrosubtitle": "Our Web and Mobile App Development services are designed to help you create applications that not only look fantastic but also provide a smooth, user-friendly experience. With expertise in custom development, cutting-edge technology, and continuous support, we’re your trusted partner for taking your business mobile and digital. Let’s work together to build an app that makes a real impact for your business."
     }
   },
-  "crm": {
-  "starter": {
-    "title": "CRM Essentials",
-    "price": "$129/month",
-    "features": [
-      "User & lead tracking",
-      "Basic analytics",
-      "Support for 1 team"
-    ]
-  },
-  "pro": {
-    "title": "CRM Pro",
-    "price": "$279/month",
-    "features": [
-      "Advanced user tracking",
-      "Custom KPIs",
-      "Call logs & voice notes"
-    ]
-  }
-},
-"software": {
-  "basic": {
-    "title": "Starter App",
-    "price": "From $499",
-    "features": [
-      "Landing page or MVP",
-      "UI design & deployment",
-      "React or Vue base"
-    ]
-  },
-  "advanced": {
-    "title": "Advanced Build",
-    "price": "From $1299",
-    "features": [
-      "Backend integration",
-      "Auth, forms, storage",
-      "Admin dashboard included"
-    ]
-  },
-  "custom": {
-    "title": "Custom Application",
-    "price": "Contact Us",
-    "features": [
-      "Your unique business logic",
-      "AI & analytics integration",
-      "Dedicated dev team"
-    ]
-  }
-},
-"social": {
-  "basic": {
-    "title": "Basic Social Kit",
-    "price": "$59/month",
-    "features": [
-      "4 posts/month",
-      "1 platform"
-    ]
-  },
-  "full": {
-    "title": "Full Management",
-    "price": "$149/month",
-    "features": [
-      "12 posts/month",
-      "Up to 3 platforms",
-      "Basic content design"
-    ]
-  }
-}
-
-
-
-
-
-},
-
   "contact": {
     "title": "Get in Touch",
     "subtitle": "We’d love to hear from you. Reach out with your questions or ideas.",
@@ -180,6 +196,3 @@
     }
   }
 }
-
-
-  
