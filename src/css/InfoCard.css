@@ -44,3 +44,46 @@
     padding-top: 12px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    .info-dark-card {
+      min-height: 380px;
+      padding: 20px;
+    }
+    
+    .info-dark-title {
+      font-size: 1.5rem;
+    }
+    
+    .info-dark-content ul {
+      padding-left: 20px;
+      font-size: 0.9rem;
+    }
+    
+    .info-dark-price {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .info-dark-card {
+      min-height: 320px;
+      padding: 15px;
+    }
+    
+    .info-dark-title {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+    
+    .info-dark-content ul {
+      padding-left: 15px;
+      font-size: 0.85rem;
+      margin-bottom: 15px;
+    }
+    
+    .info-dark-price {
+      font-size: 1.2rem;
+      padding-top: 8px;
+    }
+  }

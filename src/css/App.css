@@ -64,27 +64,18 @@ body:has(div#root > div.main-content > div.home) {
   min-height: 100vh;
 }
 
-@media (max-width: 768px) {}
-
-@media (max-width: 480px) {}
-
-@font-face {
-  font-family: 'SFUIDisplay';
-  /* Name your font */
-  src: url('../fonts/SF-Mono-Medium.otf') format('opentype');
-  /* Modern browsers */
-  font-weight: normal;
-  /* Specify the weight */
-  font-style: normal;
-  /* Specify the style */
-}
-
-/* * {
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-family: 'SFUIDisplay';
-} */
-
 * {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) { 
+  * #background-video {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) { 
+  * #background-video {
+    display: none;
+  }
 }

@@ -14,7 +14,9 @@
   box-sizing: border-box;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
+
 .language-switcher {
+  display: flex;
   gap: 12px;
   align-items: center;
 }
@@ -23,6 +25,7 @@
   width: 100%;
   height: 16px;
 }
+
 .flag-icon {
   width: 16px;
   height: 16px;
@@ -39,6 +42,7 @@
 .logo-container:hover {
   cursor: pointer;
 }
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -60,10 +64,10 @@
 .header nav {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .header nav a {
-  margin-top: auto;
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -89,13 +93,6 @@
   transform-origin: center;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
 .desktop-nav {
   display: flex;
   gap: 1rem;
@@ -107,18 +104,73 @@
   font-weight: bold;
 }
 
-.language-switcher {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.right-side-header{
+.right-side-header {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  align-items: center;
+}
+
+.mobile-nav {
+  display: flex;
+  align-items: center;
 }
 
 .mobile-nav nav a {
   font-size: medium;
   font-weight: medium;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 15px;
+  }
+  
+  .header-logo {
+    height: 30px;
+  }
+  
+  .header h1 {
+    font-size: 1.1rem;
+  }
+  
+  .header nav {
+    gap: 15px;
+  }
+  
+  .header nav a {
+    font-size: 0.5rem;
+  }
+  
+  .right-side-header {
+    gap: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 10px;
+  }
+  
+  .header-logo {
+    height: 25px;
+  }
+  
+  .header h1 {
+    font-size: 0.8rem;
+  }
+  
+  .desktop-nav {
+    display: none; /* Hide desktop nav on very small screens */
+  }
+  
+  .flag-icon {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .right-side-header {
+    gap: 0.5rem;
+  }
 }

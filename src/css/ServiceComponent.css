@@ -95,31 +95,62 @@ h2 {
     /* Even darker blue when clicked */
 }
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
-    .serviceTextContainer {
-        width: 100%;
-        /* Take full width on mobile */
-        padding: 20px;
-        /* Reduced padding for mobile */
-    }
-
-    .servicePicContainer {
-        width: 100%;
-        /* Make image container take full width on mobile */
-        height: 200px;
-        /* Set a fixed height for the image on mobile */
-    }
-
-    h2 {
-        font-size: 24px;
-        /* Adjust heading size */
-        margin-bottom: 20px;
-        /* Reduce space below heading */
-    }
-
+/* Media queries for smaller screens */
+@media screen and (max-width: 992px) {
     .serviceContainer {
-        flex-direction: column;
-        /* Stack elements vertically */
+      flex-direction: column;
+      max-height: none;
+      align-items: center;
     }
-}
+    
+    .serviceTextContainer {
+      width: 90%;
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .servicePicContainer {
+      width: 90%;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .serviceTextContainer {
+      width: 95%;
+      padding: 20px;
+    }
+    
+    .servicePicContainer {
+      width: 95%;
+      padding: 10px;
+    }
+    
+    h2 {
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+    
+    .custom-button {
+      width: 90px;
+    }
+    
+    .custom-button:hover {
+      width: 100px;
+    }
+    
+    .custom-button:active {
+      width: 110px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .serviceTextContainer {
+      padding: 15px;
+    }
+    
+    h2 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+  }

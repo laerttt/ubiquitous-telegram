@@ -1,4 +1,5 @@
 .service-card {
+  min-height: 400px;
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
@@ -100,4 +101,79 @@
 
 .custom-button * {
   text-shadow: none !important; 
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+  .service-card {
+    padding: 20px;
+    min-width: 500px;
+  }
+  
+  .service-card-image {
+    width: 170px;
+  }
+  
+  .service-card-title {
+    font-size: 1.3em;
+  }
+  
+  .service-card-description {
+    font-size: 0.9em;
+  }
+  
+  .service-card-button-container {
+    width: 170px;
+    padding: 8px 8px 0px 8px;
+  }
+  
+  .custom-button {
+    width: 90px;
+    font-size: x-small;
+  }
+  
+  .custom-button:hover {
+    width: 100px;
+  }
+  
+  .custom-button:active {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-card {
+    padding: 15px;
+    min-width: 350px;
+  }
+  
+  .service-card-image {
+    width: 150px;
+  }
+  
+  .service-card-title {
+    font-size: 1.2em;
+  }
+  
+  .service-card-description {
+    font-size: 0.85em;
+  }
+  
+  .service-card-button-container {
+    width: 150px;
+    padding: 6px 6px 0px 6px;
+  }
+  
+  .custom-button {
+    width: 80px;
+    line-height: 22px;
+  }
+  
+  .custom-button:hover {
+    width: 90px;
+  }
+  
+  .custom-button:active {
+    width: 100px;
+  }
 }

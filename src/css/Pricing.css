@@ -2,6 +2,7 @@
   margin-top: 100px;
   color: white;
 }
+
 .pricing-page {
   display: flex;
   justify-content: center;
@@ -26,14 +27,13 @@
   backdrop-filter: blur(10px);
   border-radius: 8px;
   padding: 20px 40px;
-  margin: 0;
+  margin: 30px 80px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
   transition: transform 0.2s ease;
-  margin: 30px 80px;
   text-align: center;
 }
 
@@ -41,18 +41,22 @@
   transform: translateY(-4px);
 }
 
+/* Base title styles - moved to the top to allow overrides */
 .title-container h1 {
   font-size: 2.5rem;
   margin: 0;
 }
+
 .title-container h2 {
   font-size: 2rem;
   margin: 0;
 }
+
 .title-container p {
   font-size: 1.2rem;
   margin: 0;
 }
+
 .description-container {
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -60,13 +64,12 @@
   backdrop-filter: blur(10px);
   border-radius: 8px;
   padding: 20px 40px;
-  margin: 0;
+  margin: 30px 80px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   justify-content: center;
   align-items: center;
-  margin: 30px 80px;
   text-align: center;
   transition: transform 0.2s ease;
   line-height: 1.6;
@@ -83,13 +86,12 @@
   backdrop-filter: blur(10px);
   border-radius: 8px;
   padding: 20px 60px;
-  margin: 0;
+  margin: 0px 80px 30px 80px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
-  margin: 0px 80px 30px 80px;
   transition: transform 0.2s ease;
 }
 
@@ -99,4 +101,86 @@
 
 #background-video {
   filter: contrast(0.9);
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 992px) {
+  .pricing-page {
+    flex-direction: column;
+    padding: 0px 40px;
+    gap: 20px;
+  }
+  
+  .info-page {
+    flex-direction: column;
+    padding: 0px 40px;
+    gap: 20px;
+  }
+  
+  .title-container, 
+  .description-container,
+  .pricing-outro {
+    margin: 20px 40px;
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing-page-container {
+    margin-top: 80px;
+  }
+  
+  .pricing-page, 
+  .info-page {
+    padding: 0px 20px;
+  }
+  
+  .title-container, 
+  .description-container,
+  .pricing-outro {
+    margin: 15px 20px;
+    padding: 15px 20px;
+  }
+  
+  .title-container h1 {
+    font-size: 1.8rem; /* Updated value for medium screens */
+  }
+  
+  .title-container h2 {
+    font-size: 1.7rem;
+  }
+  
+  .title-container p {
+    font-size: 1rem; /* Updated from 0.3rem which was too small */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pricing-page-container {
+    margin-top: 70px;
+  }
+  
+  .pricing-page, 
+  .info-page {
+    padding: 0px 10px;
+    gap: 15px;
+  }
+  
+  .title-container, 
+  .description-container,
+  .pricing-outro {
+    padding: 12px 15px;
+  }
+  
+  .title-container h1 {
+    font-size: 1.2rem; /* Updated from 0.1rem which was extremely small */
+  }
+  
+  .title-container h2 {
+    font-size: 1.0rem;
+  }
+  
+  .title-container p {
+    font-size: 0.9rem; /* Updated from 0.3rem for better readability */
+  }
 }
