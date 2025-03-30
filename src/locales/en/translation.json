@@ -178,6 +178,56 @@
       },
       "outrotitle": "Let’s Build Something Powerful Together",
       "outrosubtitle": "Our Web and Mobile App Development services are designed to help you create applications that not only look fantastic but also provide a smooth, user-friendly experience. With expertise in custom development, cutting-edge technology, and continuous support, we’re your trusted partner for taking your business mobile and digital. Let’s work together to build an app that makes a real impact for your business."
+    },
+    "graphicDesign": {
+      "hero": "Elevate Your Brand with Expert UX/UI and Logo Design Services",
+      "subtitle": "Crafting Visually Stunning and User-Centric Designs that Drive Engagement",
+      "description": "Your brand's design is more than just aesthetics; it’s how your audience experiences your product, website, or service. With our UX/UI Design and Logo Design services, we focus on creating beautiful, user-friendly designs that drive engagement and leave a lasting impression. Whether it’s revamping your existing user interface, designing a compelling logo, or creating a seamless user experience, we provide the expertise and creativity to ensure your brand stands out.",
+      "whyus": "Why Choose Us?",
+      "reasons": [
+        "Tailored Design Solutions: <br/> Our designs are specifically crafted to reflect your brand’s unique voice, ensuring your audience connects with your product on a deeper level.",
+        "Creative Expertise: <br/> With years of design experience, our team brings creative flair and technical expertise to every project, delivering results that impress.",
+        "Collaborative Process: <br/> We work closely with you throughout the design process, ensuring that the end result exceeds your expectations."
+      ],
+      "ourprocess": "Our Process",
+      "step": [
+        "Discovery & Research: <br/> We begin by understanding your brand, goals, and target audience. Our team will conduct research on your competitors, industry trends, and user behaviors to inform the design process.",
+        "Design & Development: <br/> Our design team will create initial concepts for your logo and UX/UI, keeping your brand identity, audience needs, and user experience at the forefront. We’ll refine designs through collaboration and feedback to ensure the perfect fit.",
+        "Testing, Refining & Launch: <br/> After finalizing the design, we conduct usability testing to ensure everything is user-friendly and intuitive. We’ll make any necessary adjustments and deliver the final design files ready for implementation."
+      ],
+      "basic": {
+        "title": "Basic Logo & UI Kit",
+        "price": "$599",
+        "features": [
+          "Custom logo design",
+          "Basic UI kit for web or mobile app",
+          "2 design revisions"
+        ]
+      },
+      "pro": {
+        "title": "Advanced UX/UI & Logo",
+        "price": "$1,299",
+        "features": [
+          "Custom logo design",
+          "User research",
+          "High-fidelity prototypes",
+          "Responsive UX/UI design for web or mobile",
+          "3 revisions"
+        ]
+      },
+      "enterprise": {
+        "title": "Premium Brand Identity",
+        "price": "$2,499",
+        "features": [
+          "Custom logo",
+          "Complete brand guidelines (colors, typography, imagery)",
+          "UX/UI design for multiple platforms",
+          "User testing",
+          "5 revisions"
+        ]
+      },
+      "outrotitle": "Designs That Speak Louder Than Words",
+      "outrosubtitle": "Our UX/UI and Logo Design services are crafted to help you build a stronger brand identity, enhance user experience, and ultimately, increase customer satisfaction and loyalty. Whether you're starting a new business or revamping an existing brand, we have the expertise to deliver designs that make an impact. Let’s make your brand unforgettable with designs that not only look great but work perfectly. Ready to get started?"
     }
   },
   "contact": {
@@ -194,5 +244,17 @@
       "message": "Your message...",
       "send": "Send"
     }
+  },
+  "header" : {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact",
+    "about": "About Us"
+  },
+  "footer" : {
+    "address": "Rr. Ismail Qemali, Tiranë, Albania",
+    "phone": "+355 69 123 4567",
+    "email": "info@debuggersoftware.com",
+    "rights": "© {{year}} Debugger Software. All rights reserved."
   }
 }

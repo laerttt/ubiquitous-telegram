@@ -10,7 +10,7 @@ const PricingWebApp = () => {
   return (
     <div>
       <video autoPlay loop muted id="background-video">
-        <source src="/homevid1.mp4" type="video/mp4" />
+        <source src="/laptopbg2.mp4" type="video/mp4" />
       </video>
 
       <div className="pricing-page-container">

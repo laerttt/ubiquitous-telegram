@@ -14,7 +14,7 @@ body:has(div#root > div.main-content > div.home) .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
   color: white;
   display: flex;
@@ -29,7 +29,7 @@ body:has(div#root > div.main-content > div.home) .footer {
 /* Default footer */
 .footer {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
   padding: 30px 20px;
   color: white;

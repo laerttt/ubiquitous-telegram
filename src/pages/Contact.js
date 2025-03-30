@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <video autoPlay loop muted id="contact-bg">
-        <source src="/contactbg.mp4" type="video/mp4" />
+        <source src="/groupdesignbg.mp4" type="video/mp4" />
       </video>
 
       <div className="contact-content">

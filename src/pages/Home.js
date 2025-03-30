@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="home">
       <video autoPlay loop muted id="background-video">
-        <source src="/homevid1.mp4" type="video/mp4" />
+        <source src="/kreu.mp4" type="video/mp4" />
       </video>
       <div className="h2-container">
         <h2 className="welcome-message">

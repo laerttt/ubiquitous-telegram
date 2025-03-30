@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation, Navigate } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import Headroom from "react-headroom";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Footer from "./components/Footer";
@@ -16,7 +15,7 @@ import PricingSocialMedia from "./pages/ProductPricing/PricingSocialMedia";
 import PricingChatbots from "./pages/ProductPricing/PricingChatbots";
 import PricingCRM from "./pages/ProductPricing/PricingCRM";
 import PricingWebApp from "./pages/ProductPricing/PricingWebApp";
-import { Navigate } from "react-router-dom";
+import PricingDesign from "./pages/ProductPricing/PricingDesign"; // ✅ NEW import
 import Contact from "./pages/Contact";
 
 // Auto language switcher using URL prefix (e.g. /en or /al)
@@ -37,10 +36,11 @@ function App() {
   return (
     <Router>
       <LangRouterWrapper>
-      <Header style={{ zIndex: 1000}} />
+        <Header style={{ zIndex: 1000 }} />
         <div className="main-content">
           <Routes>
-          <Route path="/" element={<Navigate to="/en" replace />} />
+            <Route path="/" element={<Navigate to="/en" replace />} />
+
             {/* English */}
             <Route path="/en" element={<Home />} />
             <Route path="/en/services" element={<Services />} />
@@ -52,6 +52,7 @@ function App() {
             <Route path="/en/pricing/chatbots" element={<PricingChatbots />} />
             <Route path="/en/pricing/crm" element={<PricingCRM />} />
             <Route path="/en/pricing/webapp" element={<PricingWebApp />} />
+            <Route path="/en/pricing/design" element={<PricingDesign />} /> {/* ✅ NEW */}
 
             {/* Albanian */}
             <Route path="/al" element={<Home />} />
@@ -64,6 +65,7 @@ function App() {
             <Route path="/al/pricing/chatbots" element={<PricingChatbots />} />
             <Route path="/al/pricing/crm" element={<PricingCRM />} />
             <Route path="/al/pricing/webapp" element={<PricingWebApp />} />
+            <Route path="/al/pricing/design" element={<PricingDesign />} /> {/* ✅ NEW */}
           </Routes>
         </div>
         <Footer style={{ zIndex: 1000 }} />

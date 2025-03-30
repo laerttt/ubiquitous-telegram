@@ -14,8 +14,7 @@
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 0 auto;
-    position: relative;
-    background: rgba(30, 0, 40, 0.25); /* darker black with slight purple hue */
+    position: relative;;
     border: 1px solid rgba(255, 255, 255, 0.125);
     border-radius: 5px;
     backdrop-filter: blur(12px);
@@ -93,7 +92,7 @@
   }
   
   .terminal_body {
-    background: rgb(0, 0, 0, 0.45);
+    background: rgb(0, 0, 0, 0.7);
     height: calc(100% - 35px);
     padding-top: 6px;
     margin-top: -1px;

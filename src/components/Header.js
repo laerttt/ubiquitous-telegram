@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
 import "../css/Header.css";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { i18n } = useTranslation();
   const location = useLocation();
 
   const toggleMenu = () => {
@@ -37,16 +39,16 @@ function Header() {
         <div className={`mobile-nav`}>
           <nav>
             <Link to={`${langPrefix}`} onClick={toggleMenu}>
-              Home
+              <Trans i18nKey="header.home" />
             </Link>
             <Link to={`${langPrefix}/services`} onClick={toggleMenu}>
-              Our Services
+              <Trans i18nKey="header.services" />
             </Link>
             <Link to={`${langPrefix}/contact`} onClick={toggleMenu}>
-              Contact
+              <Trans i18nKey="header.contact" />
             </Link>
             <Link to={`${langPrefix}/about`} onClick={toggleMenu}>
-              About Us
+              <Trans i18nKey="header.about" />
             </Link>
           </nav>
         </div>
@@ -54,11 +56,7 @@ function Header() {
           <Link to={getLanguageLink("al")} className="flag-link" title="Shqip">
             <img src="/albania.png" alt="Albanian" className="flag-icon" />
           </Link>
-          <Link
-            to={getLanguageLink("en")}
-            className="flag-link"
-            title="English"
-          >
+          <Link to={getLanguageLink("en")} className="flag-link" title="English">
             <img src="/uk.png" alt="English" className="flag-icon" />
           </Link>
         </div>

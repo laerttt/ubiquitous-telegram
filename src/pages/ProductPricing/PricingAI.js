@@ -9,7 +9,7 @@ const PricingAI = () => {
   return (
     <div>
       <video autoPlay loop muted id="background-video">
-        <source src="/aiinfo.mp4" type="video/mp4" />
+        <source src="/filming.mp4" type="video/mp4" />
       </video>
       <div className="pricing-page-container">
         <div className="title-container">

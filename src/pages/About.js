@@ -10,6 +10,9 @@ function About() {
 
   return (
     <div className="about-container">
+      <video autoPlay loop muted id="contact-bg">
+        <source src="/homevid1.mp4" type="video/mp4" />
+      </video>
       <div className="container">
         <div className="terminal_toolbar">
           <div className="butt">
