@@ -59,6 +59,7 @@ const PricingWebsite = () => {
               <li><Trans i18nKey="pricing.website.pro.features.0" /></li>
               <li><Trans i18nKey="pricing.website.pro.features.1" /></li>
               <li><Trans i18nKey="pricing.website.pro.features.2" /></li>
+              <li><Trans i18nKey="pricing.website.pro.features.3" /></li>
             </ul>
           </PricingCard>
 
@@ -69,7 +70,13 @@ const PricingWebsite = () => {
             <ul>
               <li><Trans i18nKey="pricing.website.enterprise.features.0" /></li>
               <li><Trans i18nKey="pricing.website.enterprise.features.1" /></li>
-              <li><Trans i18nKey="pricing.website.enterprise.features.2" /></li>
+              <li><Trans i18nKey="pricing.website.enterprise.features.3" /></li>
+              <li><Trans i18nKey="pricing.website.enterprise.features.4" /></li>
+              <li><Trans i18nKey="pricing.website.enterprise.features.5" /></li>
+              <li><Trans i18nKey="pricing.website.enterprise.features.6" /></li>
+              <li><Trans i18nKey="pricing.website.enterprise.features.7" /></li>
+              <li><Trans i18nKey="pricing.website.enterprise.features.8" /></li>
+              <li><Trans i18nKey="pricing.website.enterprise.features.9" /></li>
             </ul>
           </PricingCard>
         </div>

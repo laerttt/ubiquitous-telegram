@@ -47,7 +47,6 @@ const PricingAI = () => {
             <ul>
               <li><Trans i18nKey="pricing.ai.starter.features.0" /></li>
               <li><Trans i18nKey="pricing.ai.starter.features.1" /></li>
-              <li><Trans i18nKey="pricing.ai.starter.features.2" /></li>
             </ul>
           </PricingCard>
 
@@ -58,7 +57,6 @@ const PricingAI = () => {
             <ul>
               <li><Trans i18nKey="pricing.ai.pro.features.0" /></li>
               <li><Trans i18nKey="pricing.ai.pro.features.1" /></li>
-              <li><Trans i18nKey="pricing.ai.pro.features.2" /></li>
             </ul>
           </PricingCard>
 
@@ -69,7 +67,6 @@ const PricingAI = () => {
             <ul>
               <li><Trans i18nKey="pricing.ai.custom.features.0" /></li>
               <li><Trans i18nKey="pricing.ai.custom.features.1" /></li>
-              <li><Trans i18nKey="pricing.ai.custom.features.2" /></li>
             </ul>
           </PricingCard>
         </div>

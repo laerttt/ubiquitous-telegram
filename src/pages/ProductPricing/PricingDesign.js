@@ -92,12 +92,6 @@ const PricingDesign = () => {
               <li>
                 <Trans i18nKey="pricing.graphicDesign.pro.features.2" />
               </li>
-              <li>
-                <Trans i18nKey="pricing.graphicDesign.pro.features.3" />
-              </li>
-              <li>
-                <Trans i18nKey="pricing.graphicDesign.pro.features.4" />
-              </li>
             </ul>
           </PricingCard>
 
@@ -114,12 +108,6 @@ const PricingDesign = () => {
               </li>
               <li>
                 <Trans i18nKey="pricing.graphicDesign.enterprise.features.2" />
-              </li>
-              <li>
-                <Trans i18nKey="pricing.graphicDesign.enterprise.features.3" />
-              </li>
-              <li>
-                <Trans i18nKey="pricing.graphicDesign.enterprise.features.4" />
               </li>
             </ul>
           </PricingCard>
