@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ubiquitous-telegram/static/css/main.682fd4aa.css",
-    "main.js": "/ubiquitous-telegram/static/js/main.55f9af6d.js",
+    "main.js": "/ubiquitous-telegram/static/js/main.ef301bad.js",
     "static/js/453.97fdcce5.chunk.js": "/ubiquitous-telegram/static/js/453.97fdcce5.chunk.js",
     "static/media/groupdstatic.png": "/ubiquitous-telegram/static/media/groupdstatic.8184bda0cdb133a50d20.png",
     "static/media/filmingstatic.png": "/ubiquitous-telegram/static/media/filmingstatic.6fe995b8002e7c5ff184.png",
@@ -13,11 +13,11 @@
     "static/media/adobestatic.png": "/ubiquitous-telegram/static/media/adobestatic.d8e6d896707f0e723767.png",
     "index.html": "/ubiquitous-telegram/index.html",
     "main.682fd4aa.css.map": "/ubiquitous-telegram/static/css/main.682fd4aa.css.map",
-    "main.55f9af6d.js.map": "/ubiquitous-telegram/static/js/main.55f9af6d.js.map",
+    "main.ef301bad.js.map": "/ubiquitous-telegram/static/js/main.ef301bad.js.map",
     "453.97fdcce5.chunk.js.map": "/ubiquitous-telegram/static/js/453.97fdcce5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.682fd4aa.css",
-    "static/js/main.55f9af6d.js"
+    "static/js/main.ef301bad.js"
   ]
 }
