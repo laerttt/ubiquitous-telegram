@@ -8,7 +8,7 @@ const PricingAI = () => {
   const { i18n } = useTranslation(); // 👈 ensures proper reactivity on language change
   return (
     <div className="pricing-page-ai">
-      <video autoPlay loop muted id="background-video">
+      <video autoPlay loop muted playsInline webkit-playsinline id="background-video">
         <source
           src={`${process.env.PUBLIC_URL}/filming.mp4`}
           type="video/mp4"

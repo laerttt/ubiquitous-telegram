@@ -9,7 +9,7 @@ const PricingWebApp = () => {
 
   return (
     <div className="pricing-page-webapp">
-      <video autoPlay loop muted id="background-video">
+      <video autoPlay loop muted playsInline webkit-playsinline id="background-video">
         <source
           src={`${process.env.PUBLIC_URL}/laptopbg2.mp4`}
           type="video/mp4"

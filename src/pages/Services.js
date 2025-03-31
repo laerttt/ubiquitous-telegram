@@ -11,7 +11,7 @@ function Services() {
 
   return (
     <div className="services-container">
-      <video autoPlay loop muted id="background-video">
+      <video autoPlay loop muted playsInline webkit-playsinline id="background-video" className="desktop-only-video">
         <source src={`${process.env.PUBLIC_URL}/archive.mp4`} type="video/mp4" />
       </video>
       <div className="services-content"> 

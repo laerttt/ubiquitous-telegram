@@ -94,11 +94,11 @@ body:has(div#root > div.main-content > div.home) .footer {
   }
   
   body:has(div#root > div.main-content > div.home) .footer {
-    position: absolute; 
+    position: fixed;
     padding: 25px 15px;
   }
   body:has(div#root > div.main-content > div.about-container) .footer {
-    position: absolute; 
+    position: fixed; 
     bottom: 0px;
     padding: 25px 15px;
   }

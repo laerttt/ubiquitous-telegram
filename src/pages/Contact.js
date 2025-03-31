@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
-      <video autoPlay loop muted id="contact-bg">
+      <video autoPlay loop muted playsInline webkit-playsinline id="contact-bg">
         <source src={`${process.env.PUBLIC_URL}/groupdesignbg.mp4`} type="video/mp4" />
       </video>
 

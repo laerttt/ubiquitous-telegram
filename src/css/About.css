@@ -137,6 +137,9 @@
     white-space: nowrap;
   }
   @media (max-width: 768px) {
+    .about-container {
+      padding: 20px 10px;
+    }
     .container {
       width: 90%;
       height: auto;
