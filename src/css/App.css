@@ -70,13 +70,7 @@ body:has(div#root > div.main-content > div.home) {
 }
 
 @media (max-width: 768px) { 
-  * #background-video {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) { 
-  * #background-video {
+  #background-video {
     display: none;
   }
 }

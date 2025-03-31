@@ -21,13 +21,6 @@ const PricingDesign = () => {
             <Trans i18nKey="pricing.graphicDesign.subtitle" />
           </p>
         </div>
-
-        <div className="description-container">
-          <p>
-            <Trans i18nKey="pricing.graphicDesign.description" />
-          </p>
-        </div>
-
         <div className="info-page">
           <InfoCard title={<Trans i18nKey="pricing.graphicDesign.whyus" />}>
             <ul>

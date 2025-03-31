@@ -1,5 +1,5 @@
 import React from "react";
-import { Trans , useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import PricingCard from "../../components/PricingCard";
 import InfoCard from "../../components/InfoCard";
 import "../../css/Pricing.css";
@@ -9,32 +9,46 @@ const PricingAI = () => {
   return (
     <div className="pricing-page-ai">
       <video autoPlay loop muted id="background-video">
-        <source src={`${process.env.PUBLIC_URL}/filming.mp4`} type="video/mp4" />
+        <source
+          src={`${process.env.PUBLIC_URL}/filming.mp4`}
+          type="video/mp4"
+        />
       </video>
       <div className="pricing-page-container">
         <div className="title-container">
-          <h1><Trans i18nKey="pricing.ai.hero" /></h1>
-          <p><Trans i18nKey="pricing.ai.subtitle" /></p>
+          <h1>
+            <Trans i18nKey="pricing.ai.hero" />
+          </h1>
+          <p>
+            <Trans i18nKey="pricing.ai.subtitle" />
+          </p>
         </div>
-
-        <div className="description-container">
-          <p><Trans i18nKey="pricing.ai.description" /></p>
-        </div>
-
         <div className="info-page">
           <InfoCard title={<Trans i18nKey="pricing.ai.whyus" />}>
             <ul>
-              <li><Trans i18nKey="pricing.ai.reasons.0" /></li>
-              <li><Trans i18nKey="pricing.ai.reasons.1" /></li>
-              <li><Trans i18nKey="pricing.ai.reasons.2" /></li>
+              <li>
+                <Trans i18nKey="pricing.ai.reasons.0" />
+              </li>
+              <li>
+                <Trans i18nKey="pricing.ai.reasons.1" />
+              </li>
+              <li>
+                <Trans i18nKey="pricing.ai.reasons.2" />
+              </li>
             </ul>
           </InfoCard>
 
           <InfoCard title={<Trans i18nKey="pricing.ai.ourprocess" />}>
             <ul>
-              <li><Trans i18nKey="pricing.ai.step.0" /></li>
-              <li><Trans i18nKey="pricing.ai.step.1" /></li>
-              <li><Trans i18nKey="pricing.ai.step.2" /></li>
+              <li>
+                <Trans i18nKey="pricing.ai.step.0" />
+              </li>
+              <li>
+                <Trans i18nKey="pricing.ai.step.1" />
+              </li>
+              <li>
+                <Trans i18nKey="pricing.ai.step.2" />
+              </li>
             </ul>
           </InfoCard>
         </div>
@@ -45,8 +59,12 @@ const PricingAI = () => {
             price={<Trans i18nKey="pricing.ai.starter.price" />}
           >
             <ul>
-              <li><Trans i18nKey="pricing.ai.starter.features.0" /></li>
-              <li><Trans i18nKey="pricing.ai.starter.features.1" /></li>
+              <li>
+                <Trans i18nKey="pricing.ai.starter.features.0" />
+              </li>
+              <li>
+                <Trans i18nKey="pricing.ai.starter.features.1" />
+              </li>
             </ul>
           </PricingCard>
 
@@ -55,8 +73,12 @@ const PricingAI = () => {
             price={<Trans i18nKey="pricing.ai.pro.price" />}
           >
             <ul>
-              <li><Trans i18nKey="pricing.ai.pro.features.0" /></li>
-              <li><Trans i18nKey="pricing.ai.pro.features.1" /></li>
+              <li>
+                <Trans i18nKey="pricing.ai.pro.features.0" />
+              </li>
+              <li>
+                <Trans i18nKey="pricing.ai.pro.features.1" />
+              </li>
             </ul>
           </PricingCard>
 
@@ -65,16 +87,22 @@ const PricingAI = () => {
             price={<Trans i18nKey="pricing.ai.custom.price" />}
           >
             <ul>
-              <li><Trans i18nKey="pricing.ai.custom.features.0" /></li>
-              <li><Trans i18nKey="pricing.ai.custom.features.1" /></li>
+              <li>
+                <Trans i18nKey="pricing.ai.custom.features.0" />
+              </li>
+              <li>
+                <Trans i18nKey="pricing.ai.custom.features.1" />
+              </li>
             </ul>
           </PricingCard>
         </div>
 
         <div className="title-container">
-          <h2><Trans i18nKey="pricing.ai.outrotitle" /></h2>
+          <h2>
+            <Trans i18nKey="pricing.ai.outrotitle" />
+          </h2>
           <p>
-          <Trans i18nKey="pricing.ai.outrosubtitle" />
+            <Trans i18nKey="pricing.ai.outrosubtitle" />
           </p>
         </div>
       </div>

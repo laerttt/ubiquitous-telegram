@@ -47,9 +47,9 @@
       "description": "In a digital-first world, video ads are one of the most powerful ways to capture attention and engage your audience. But what if you could take it a step further? With our AI Video Ad services, we create smart, dynamic video advertisements tailored specifically to your target audience. Powered by cutting-edge artificial intelligence, our video ads optimize content, ensure relevance, and drive higher engagement rates. Whether you’re looking to promote a new product, boost brand awareness, or increase conversions, our AI-driven video ads offer a cost-effective solution to supercharge your marketing efforts.",
       "whyus": "Why Choose Us?",
       "reasons": [
-        "AI-Powered Innovation: <br/> We leverage the latest in AI technology to deliver next-level video ads that are highly personalized and optimized for performance.",
-        "Custom-Tailored Ads: <br/> We don’t just use generic templates—we create unique, branded video ads that speak to your audience’s interests, needs, and preferences.",
-        "Speed & Efficiency: <br/> With AI-driven automation, we create high-quality video ads quickly, allowing you to launch campaigns faster and reach your audience at the right moment."
+        "AI Innovation: <br/> We use cutting-edge AI to create personalized, high-performing video ads.",
+        "Custom Content: <br/> Unique, branded videos tailored to your audience—not generic templates.",
+        "Fast Delivery: <br/> AI automation speeds up production so you can launch campaigns quickly."
       ],
       "ourprocess": "Our Process",
       "step": [
@@ -90,15 +90,15 @@
       "description": "In today's digital-first world, your website is more than just a place to showcase your brand – it's the cornerstone of your business's success. Our Website Programming service delivers highly functional, beautifully designed, and seamless websites tailored to meet your specific needs. Whether you're starting from scratch or looking to improve your current site, we provide cutting-edge solutions that enhance user experience, boost engagement, and maximize conversion rates.",
       "whyus": "Why Choose Us?",
       "reasons": [
-        "Expert Developers: <br/> Our team of experienced web developers has a proven track record in creating websites that convert visitors into customers.",
-        "Customer-Centric Approach: <br/> We listen to your needs and focus on providing solutions that not only look good but also serve your business goals",
-        "Affordable, Transparent Pricing: <br/> No hidden fees. We provide clear, upfront pricing with flexible packages to fit your budget."
+        "Skilled Developers: <br/> We build high-converting websites backed by proven experience.",
+        "Client-Focused: <br/> Solutions tailored to your goals, not just good looks.",
+        "Clear Pricing: <br/> Upfront, affordable packages with no hidden fees."
       ],
       "ourprocess": "Our Process",
       "step": [
-        "Consultation & Planning: <br/> We’ll start by understanding your business, goals, and vision. Our team will create a tailored roadmap to ensure the project aligns with your expectations and business objectives.",
-        "Design & Development: <br/> Our developers and designers work closely together to create a unique and responsive website. We'll incorporate your feedback throughout the design process, ensuring every detail matches your brand.",
-        "Launch: <br/> Once your site is ready, we’ll conduct thorough testing to ensure everything works perfectly."
+        "Consultation & Planning: <br/> We learn your goals and create a tailored roadmap to align with your vision.",
+        "Design & Development: <br/> Our team builds a unique, responsive site, refining it with your feedback.",
+        "Launch: <br/> We run final tests to ensure your website is polished and fully functional."
       ],
       "basic": {
         "title": "Basic Website",
@@ -144,16 +144,16 @@
       "description": "In today’s mobile-first world, having a dynamic and high-performing web or mobile application is essential for staying competitive. Whether you need a custom-built web app for your business or a mobile app to engage your customers on-the-go, our Web and Mobile App Development services provide tailored solutions designed to deliver outstanding user experiences. From ideation to launch, we ensure that your app is intuitive, secure, and capable of scaling with your business.",
       "whyus": "Why Choose Us?",
       "reasons": [
-        "Expert Development Team: <br/> Our team of experienced developers has deep expertise in building innovative, reliable, and secure web and mobile applications.",
-        "User-Centered Design: <br/> We create user interfaces that are not only visually appealing but also highly intuitive, ensuring an exceptional user experience.",
-        "End-to-End Development: <br/> From concept to deployment, we manage the entire app development process, offering continuous support to ensure the best outcomes.",
-        "Future-Proof Solutions: <br/> We build apps that can easily adapt to changing technology and business needs, ensuring long-term viability."
+        "Skilled Team: <br/> Experienced developers delivering secure and innovative web and mobile apps.",
+        "User-First Design: <br/> Intuitive and attractive interfaces for a great user experience.",
+        "Full-Service Development: <br/> We handle everything from concept to launch, with ongoing support.",
+        "Future-Ready Apps: <br/> Scalable solutions built to grow with your business and tech trends."
       ],
       "ourprocess": "Our Process",
       "step": [
-        "Consultation & Conceptualization: <br/> We begin with an in-depth consultation to understand your business goals and app requirements. Based on your needs, our team will develop a comprehensive roadmap for the project, including wireframes and feature specifications.",
-        "Design & Development: <br/> Our design team will create high-fidelity UI/UX designs that represent your brand and optimize user experience. Our development team will then build the app, focusing on clean code, scalability, and performance across multiple devices and platforms.",
-        "Testing, Launch & Post-Launch Support: <br/> Once the app is built, we conduct rigorous testing to ensure it works seamlessly across all devices. After the launch, we provide post-launch support, monitoring performance, and making necessary adjustments to optimize functionality."
+        "Consultation & Planning: <br/> We discuss your goals and define a roadmap with wireframes and features tailored to your needs.",
+        "Design & Development: <br/> We craft a high-quality UI/UX and build a scalable, high-performance app for all platforms.",
+        "Testing & Support: <br/> We test thoroughly before launch and offer post-launch support to ensure everything runs smoothly."
       ],
       "basic": {
         "title": "Starter App",
@@ -197,9 +197,9 @@
       ],
       "ourprocess": "Our Process",
       "step": [
-        "Discovery & Research: <br/> We begin by understanding your brand, goals, and target audience. Our team will conduct research on your competitors, industry trends, and user behaviors to inform the design process.",
-        "Design & Development: <br/> Our design team will create initial concepts for your logo and UX/UI, keeping your brand identity, audience needs, and user experience at the forefront. We’ll refine designs through collaboration and feedback to ensure the perfect fit.",
-        "Testing, Refining & Launch: <br/> After finalizing the design, we conduct usability testing to ensure everything is user-friendly and intuitive. We’ll make any necessary adjustments and deliver the final design files ready for implementation."
+        "Discovery & Research: <br/> We learn about your brand, goals, and audience, and research competitors and trends to guide our approach.",
+        "Design & Development: <br/> We craft logo and UX/UI concepts aligned with your brand, refining through feedback for the best result.",
+        "Testing & Launch: <br/> We test for usability, make final tweaks, and deliver ready-to-use design files."
       ],
       "basic": {
         "title": "Basic Logo",
@@ -247,13 +247,13 @@
       "send": "Send"
     }
   },
-  "header" : {
+  "header": {
     "home": "Home",
     "services": "Services",
     "contact": "Contact",
     "about": "About Us"
   },
-  "footer" : {
+  "footer": {
     "address": "Rr. Ismail Qemali, Tiranë, Albania",
     "phone": "+355 69 123 4567",
     "email": "info@debuggersoftware.com",
