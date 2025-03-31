@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ubiquitous-telegram/static/css/main.682fd4aa.css",
-    "main.js": "/ubiquitous-telegram/static/js/main.ef301bad.js",
+    "main.css": "/ubiquitous-telegram/static/css/main.c41d2441.css",
+    "main.js": "/ubiquitous-telegram/static/js/main.67400249.js",
     "static/js/453.97fdcce5.chunk.js": "/ubiquitous-telegram/static/js/453.97fdcce5.chunk.js",
     "static/media/groupdstatic.png": "/ubiquitous-telegram/static/media/groupdstatic.8184bda0cdb133a50d20.png",
     "static/media/filmingstatic.png": "/ubiquitous-telegram/static/media/filmingstatic.6fe995b8002e7c5ff184.png",
@@ -12,12 +12,12 @@
     "static/media/homevidstatic.png": "/ubiquitous-telegram/static/media/homevidstatic.5de3a220e468112459b6.png",
     "static/media/adobestatic.png": "/ubiquitous-telegram/static/media/adobestatic.d8e6d896707f0e723767.png",
     "index.html": "/ubiquitous-telegram/index.html",
-    "main.682fd4aa.css.map": "/ubiquitous-telegram/static/css/main.682fd4aa.css.map",
-    "main.ef301bad.js.map": "/ubiquitous-telegram/static/js/main.ef301bad.js.map",
+    "main.c41d2441.css.map": "/ubiquitous-telegram/static/css/main.c41d2441.css.map",
+    "main.67400249.js.map": "/ubiquitous-telegram/static/js/main.67400249.js.map",
     "453.97fdcce5.chunk.js.map": "/ubiquitous-telegram/static/js/453.97fdcce5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.682fd4aa.css",
-    "static/js/main.ef301bad.js"
+    "static/css/main.c41d2441.css",
+    "static/js/main.67400249.js"
   ]
 }
